@@ -1,0 +1,860 @@
+[
+  {
+    "title": "Agentic Workflow and Generative AI",
+    "date": "AUG 27",
+    "type": "seminar",
+    "price": "FREE",
+    "desc": "An industry expert webinar on Agentic Workflow and Generative AI, featuring Dr. Anil Sharma, AI Scientist Manager at EY. Organized by the KARE ACM Student Chapter.",
+    "tags": [
+      "#Generative AI",
+      "#AI",
+      "#Webinar",
+      "#Computer Science",
+      "#Agentic Workflow"
+    ],
+    "startDate": "2025-08-27",
+    "endDate": "2025-08-27",
+    "year": 2025,
+    "venue": "Online",
+    "images": [
+      "/events/agentic_workflow_and_generative_ai_1.jpeg",
+      "/events/agentic_workflow_and_generative_ai_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "HACK-AI-THON: The AI Hackathon",
+    "date": "DEC 25",
+    "type": "hackathon",
+    "price": "Rs 2500",
+    "desc": "A 24-hour AI-themed hackathon with the theme 'Gen-AI'. Open to III and IV-year students. Top performers receive internship opportunities from Diebold Nixdorf and two experiential elective credits. The registration fee is ₹2500 per team of up to 5 members.",
+    "tags": [
+      "#Hackathon",
+      "#AI",
+      "#Gen-AI",
+      "#Competition",
+      "#Internship",
+      "#Diebold Nixdorf"
+    ],
+    "startDate": "2024-12-25",
+    "endDate": "2024-12-26",
+    "year": 2024,
+    "venue": "Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/hack_ai_thon_the_ai_hackathon_1.jpg",
+      "/events/hack_ai_thon_the_ai_hackathon_2.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Hour of Code: The Coding Challenge",
+    "date": "DEC 27",
+    "type": "other",
+    "price": "Rs 100",
+    "desc": "A 3-round coding challenge to test and showcase programming skills. Top performers will be provided with one experiential elective credit and an invitation to a pizza party. Registration fee is ₹100.",
+    "tags": [
+      "#Coding Challenge",
+      "#Competition",
+      "#Programming",
+      "#Hour of Code",
+      "#Computer Science"
+    ],
+    "startDate": "2024-12-27",
+    "endDate": "2024-12-28",
+    "year": 2024,
+    "venue": "Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/hour_of_code_the_coding_challenge_1.jpg",
+      "/events/hour_of_code_the_coding_challenge_2.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Multilingual Conversational AI for Human Computer Interaction",
+    "date": "SEP 6",
+    "type": "seminar",
+    "price": "FREE",
+    "desc": "An industry expert webinar focusing on Multilingual Conversational AI for Human Computer Interaction. Presented by Dr. Karthika Vijayan, Solution Consultant at Sahaj AI Software and an ACM India Eminent Speaker.",
+    "tags": [
+      "#Conversational AI",
+      "#AI",
+      "#HCI",
+      "#Human Computer Interaction",
+      "#Webinar",
+      "#NLP"
+    ],
+    "startDate": "2024-09-06",
+    "endDate": "2024-09-06",
+    "year": 2024,
+    "venue": "Online",
+    "images": [
+      "/events/multilingual_conversational_ai_for_human_computer_interactio_1.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "Data Science and Gen AI Use Case in e-Commerce",
+    "date": "AUG 3",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "An industry expert talk on the use cases of Data Science and Generative AI in the e-Commerce sector, presented by Dr. Shourya Roy, Senior Research Director at Flipkart and an ACM India Executive Council Member.",
+    "tags": [
+      "#Data Science",
+      "#Gen AI",
+      "#e-Commerce",
+      "#Industry Talk",
+      "#Flipkart",
+      "#AI"
+    ],
+    "startDate": "2025-08-03",
+    "endDate": "2025-08-03",
+    "year": 2025,
+    "venue": "Admin Block Seminar Hall, Kalasalingam University",
+    "images": [
+      "/events/data_science_and_gen_ai_use_case_in_e_commerce_1.jpeg",
+      "/events/data_science_and_gen_ai_use_case_in_e_commerce_2.jpeg",
+      "/events/data_science_and_gen_ai_use_case_in_e_commerce_3.jpeg",
+      "/events/data_science_and_gen_ai_use_case_in_e_commerce_4.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "SQL Knight",
+    "date": "MAR 26",
+    "type": "hackathon",
+    "price": "FREE",
+    "desc": "A two-round SQL and database competition, part of the Euphoria 2024 tech fest. Teams of up to 2 students compete in a preliminary SQL quiz followed by a final application development round. Cash prizes are awarded to the top three teams.",
+    "tags": [
+      "#SQL",
+      "#Database",
+      "#Competition",
+      "#Hackathon",
+      "#Euphoria 2024",
+      "#Computer Science"
+    ],
+    "startDate": "2024-03-26",
+    "endDate": "2024-03-27",
+    "year": 2024,
+    "venue": "Rooms 8301 & 8301 'A', Kalasalingam University",
+    "images": [
+      "/events/sql_knight_1.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Summer Boost-Up Programme",
+    "date": "",
+    "type": "workshop",
+    "price": "FREE",
+    "desc": "A student activity and summer boost-up programme focused on placement preparation, conducted by Dr. T Karthick, Associate Professor at SRM IST Chennai.",
+    "tags": [
+      "#Workshop",
+      "#Placement Preparation",
+      "#Career",
+      "#Summer Program",
+      "#Student Activity"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "year": null,
+    "venue": "Online",
+    "images": [
+      "/events/summer_boost_up_programme_1.jpeg",
+      "/events/summer_boost_up_programme_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "TechQuest: The Digital Odyssey",
+    "date": "JUN 3",
+    "type": "other",
+    "price": "FREE",
+    "desc": "An online technical competition titled 'The Digital Odyssey'. Participants compete for cash prizes, with the event hosted on the Unstop platform.",
+    "tags": [
+      "#TechQuest",
+      "#Competition",
+      "#Online Event",
+      "#Technical",
+      "#Unstop"
+    ],
+    "startDate": "2024-06-03",
+    "endDate": "2024-06-03",
+    "year": 2024,
+    "venue": "Online (Unstop Platform)",
+    "images": [
+      "/events/techquest_the_digital_odyssey_1.jpeg",
+      "/events/techquest_the_digital_odyssey_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "Introduction to Vertex AI For Beginners",
+    "date": "JUL 2",
+    "type": "seminar",
+    "price": "FREE",
+    "desc": "A beginner-friendly webinar on Vertex AI, designed to help participants dive into the future of Machine Learning. Presented by Aadhityaa S B, a Developer Advocate in the CloudnLoud community.",
+    "tags": [
+      "#Vertex AI",
+      "#AI",
+      "#Machine Learning",
+      "#Google Cloud",
+      "#Webinar",
+      "#CloudnLoud"
+    ],
+    "startDate": "2023-07-02",
+    "endDate": "2023-07-02",
+    "year": 2023,
+    "venue": "Online",
+    "images": [
+      "/events/introduction_to_vertex_ai_for_beginners_1.jpg",
+      "/events/introduction_to_vertex_ai_for_beginners_2.jpg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "Virtual Code Corner 2024",
+    "date": "MAY 21",
+    "type": "hackathon",
+    "price": "FREE",
+    "desc": "A virtual coding competition hosted on Hackerrank. The event consists of two rounds: an initial aptitude test followed by a final coding challenge, with cash prizes for the top performers.",
+    "tags": [
+      "#Coding Competition",
+      "#Hackerrank",
+      "#Virtual Event",
+      "#Aptitude",
+      "#Programming"
+    ],
+    "startDate": "2024-05-21",
+    "endDate": "2024-05-21",
+    "year": 2024,
+    "venue": "Online (Hackerrank)",
+    "images": [
+      "/events/virtual_code_corner_2024_1.jpeg",
+      "/events/virtual_code_corner_2024_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "ACM India Winter School: Data Structures & Algorithms for Strings",
+    "date": "DEC 16",
+    "type": "workshop",
+    "price": "FREE",
+    "desc": "An intensive winter school hosted at Amrita Vishwa Vidyapeetham on 'Data Structures and Algorithms for Strings with Applications to Search Engines and Computational Biology'. This entry marks the participation of selected students from KARE CSE.",
+    "tags": [
+      "#ACM India",
+      "#Winter School",
+      "#Data Structures",
+      "#Algorithms",
+      "#External Event"
+    ],
+    "startDate": "2024-12-16",
+    "endDate": "2024-12-24",
+    "year": 2024,
+    "venue": "Amrita Vishwa Vidyapeetham, Coimbatore",
+    "images": [
+      "/events/acm_india_winter_school_data_structures_and_algorithms_for_s_1.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "ACM India Chapter Awards 2024",
+    "date": "MAR 1",
+    "type": "other",
+    "price": "FREE",
+    "desc": "The annual awards ceremony by ACM India. This entry marks the achievement of the KARE ACM Student Chapter, which received an Honourable Mention for the Outstanding Chapter Award 2024 at this event.",
+    "tags": [
+      "#ACM India",
+      "#Awards",
+      "#Achievement",
+      "#External Event"
+    ],
+    "startDate": "2025-03-01",
+    "endDate": "2025-03-01",
+    "year": 2025,
+    "venue": "TBD",
+    "images": [
+      "/events/acm_india_chapter_awards_2024_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Code Sprint 100: 100 Days of Coding",
+    "date": "",
+    "type": "other",
+    "price": "FREE",
+    "desc": "A 100-day daily coding challenge designed to help participants improve their problem-solving skills and master Data Structures & Algorithms (DSA) from scratch. Participants can earn a certificate for completing 100 tasks, with prizes for 'The Idea Spark'.",
+    "tags": [
+      "#100DaysOfCode",
+      "#Coding Challenge",
+      "#DSA",
+      "#Problem Solving",
+      "#Code Sprint"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "year": null,
+    "venue": "Online",
+    "images": [
+      "/events/code_sprint_100_100_days_of_coding_1.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "A Convergence of Hardware, Software and Machine Learning",
+    "date": "JUN 20",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "An ACM Sponsored ESP Program talk on fine-tuning AI models for edge devices using advanced architectures and compression for smarter, faster on-device data processing. Presented by Amod Jai Ganesh Anandkumar, Director of Research at Harman X.",
+    "tags": [
+      "#Hardware",
+      "#Software",
+      "#Machine Learning",
+      "#Edge AI",
+      "#AI Models",
+      "#Harman X"
+    ],
+    "startDate": "2024-06-20",
+    "endDate": "2024-06-20",
+    "year": 2024,
+    "venue": "Online (Google Meet)",
+    "images": [
+      "/events/a_convergence_of_hardware_software_and_machine_learning_1.jpeg",
+      "/events/a_convergence_of_hardware_software_and_machine_learning_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "BLAST: Blockchain Algorithm for Secure Transaction",
+    "date": "AUG 19",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "A talk from the ACM India Eminent Speaker Program on 'BLAST: Blockchain Algorithm for Secure Transaction'. Presented by Dr. Rahul Johari, an ACM Eminent Speaker from Guru Gobind Singh Indraprastha University, Delhi.",
+    "tags": [
+      "#Blockchain",
+      "#Security",
+      "#Algorithms",
+      "#Transactions",
+      "#ACM Eminent Speaker"
+    ],
+    "startDate": "2023-08-19",
+    "endDate": "2023-08-19",
+    "year": 2023,
+    "venue": "TBD",
+    "images": [
+      "/events/blast_blockchain_algorithm_for_secure_transaction_1.jpeg",
+      "/events/blast_blockchain_algorithm_for_secure_transaction_2.jpg",
+      "/events/blast_blockchain_algorithm_for_secure_transaction_3.jpg",
+      "/events/blast_blockchain_algorithm_for_secure_transaction_4.jpg",
+      "/events/blast_blockchain_algorithm_for_secure_transaction_5.jpg",
+      "/events/blast_blockchain_algorithm_for_secure_transaction_6.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Analytics in Industry",
+    "date": "JUN 6",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "An ACM Sponsored ESP Program talk on how Machine Learning and Analytics are revolutionizing smart city development. Presented by Dr. Mukta Paliwal, Associate Director of Data Science at Novartis.",
+    "tags": [
+      "#Analytics",
+      "#Machine Learning",
+      "#ML",
+      "#Smart City",
+      "#Data Science",
+      "#Novartis"
+    ],
+    "startDate": "2024-06-06",
+    "endDate": "2024-06-06",
+    "year": 2024,
+    "venue": "Online (Zoom)",
+    "images": [
+      "/events/analytics_in_industry_1.jpeg",
+      "/events/analytics_in_industry_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "Internet of Everything (IoE): Rise of the Machines",
+    "date": "JUL 18",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "A talk from the ACM India Eminent Speaker Program on 'Internet of Everything (IoE): Rise of the Machines'. Presented by Dr. Prashant R. Nair, an ACM Eminent Speaker from Amrita Vishwa Vidyapeetham, Coimbatore.",
+    "tags": [
+      "#Internet of Everything",
+      "#IoE",
+      "#IoT",
+      "#ACM Eminent Speaker"
+    ],
+    "startDate": "2023-07-18",
+    "endDate": "2023-07-18",
+    "year": 2023,
+    "venue": "TBD",
+    "images": [
+      "/events/internet_of_everything_ioe_rise_of_the_machines_1.jpeg",
+      "/events/internet_of_everything_ioe_rise_of_the_machines_2.jpg",
+      "/events/internet_of_everything_ioe_rise_of_the_machines_3.jpg",
+      "/events/internet_of_everything_ioe_rise_of_the_machines_4.jpg",
+      "/events/internet_of_everything_ioe_rise_of_the_machines_5.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Fun With Algorithms",
+    "date": "AUG 20",
+    "type": "seminar",
+    "price": "FREE",
+    "desc": "An industry expert webinar on 'Fun With Algorithms', presented by Sachin Lodha, Chief Scientist at TCS Research and an ACM Eminent Speaker.",
+    "tags": [
+      "#Algorithms",
+      "#TCS Research",
+      "#Webinar",
+      "#ACM Eminent Speaker",
+      "#Computer Science"
+    ],
+    "startDate": "2025-08-20",
+    "endDate": "2025-08-20",
+    "year": 2025,
+    "venue": "Online",
+    "images": [
+      "/events/fun_with_algorithms_1.jpeg",
+      "/events/fun_with_algorithms_2.jpeg"
+    ],
+    "mode": "online",
+    "maxCapacity": null
+  },
+  {
+    "title": "Hack Odyssey 2024",
+    "date": "MAR 26",
+    "type": "hackathon",
+    "price": "Rs 500",
+    "desc": "A 24-hour, on-site hackathon and a part of the Euphoria tech fest, with a total prize pool of 1 Lakh Rupees. Teams of 4 to 6 members will tackle on-the-spot problem statements across themes like Ed-tech, Healthcare, and Finance. Registration fee is ₹500 per participant.",
+    "tags": [
+      "#Hackathon",
+      "#Euphoria 2024",
+      "#Competition",
+      "#Ed-tech",
+      "#Healthcare",
+      "#Finance"
+    ],
+    "startDate": "2024-03-26",
+    "endDate": "2024-03-27",
+    "year": 2024,
+    "venue": "Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/hack_odyssey_2024_1.jpeg",
+      "/events/hack_odyssey_2024_2.jpeg",
+      "/events/hack_odyssey_2024_3.jpeg",
+      "/events/hack_odyssey_2024_4.jpeg",
+      "/events/hack_odyssey_2024_5.jpeg",
+      "/events/hack_odyssey_2024_6.jpeg",
+      "/events/hack_odyssey_2024_7.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Hour of Code",
+    "date": "DEC 11",
+    "type": "workshop",
+    "price": "FREE",
+    "desc": "A one-hour creative coding workshop where participants can craft simple games, animations, or solve puzzles. The event is open to all students to explore technology and the joy of coding.",
+    "tags": [
+      "#Hour of Code",
+      "#Workshop",
+      "#Coding",
+      "#Games",
+      "#Animations",
+      "#Beginners"
+    ],
+    "startDate": "2023-12-11",
+    "endDate": "2023-12-11",
+    "year": 2023,
+    "venue": "Room 8601, Kalasalingam University",
+    "images": [
+      "/events/hour_of_code_1.jpeg",
+      "/events/hour_of_code_2.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Idea Spark",
+    "date": "AUG 3",
+    "type": "hackathon",
+    "price": "FREE",
+    "desc": "A multi-round, offline software development competition for teams of four. The event progresses from planning (Round 1) and development (Round 2) to a final deployment and evaluation by industry experts (Final Round), with cash prizes for the top teams.",
+    "tags": [
+      "#Idea Spark",
+      "#Hackathon",
+      "#Software Development",
+      "#Competition",
+      "#Innovation"
+    ],
+    "startDate": "2024-08-03",
+    "endDate": "2024-09-21",
+    "year": 2024,
+    "venue": "Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/idea_spark_1.jpeg",
+      "/events/idea_spark_2.jpeg",
+      "/events/idea_spark_3.png",
+      "/events/idea_spark_4.png",
+      "/events/idea_spark_5.png",
+      "/events/idea_spark_6.png"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "ACM India Industry Day: Poster Presentation Competition",
+    "date": "MAR 29",
+    "type": "other",
+    "price": "FREE",
+    "desc": "A poster presentation competition on the theme of 'Data Science and its Application in Real Life', organized by Madurai ACM in association with ACM India as part of the ACM India Industry Day.",
+    "tags": [
+      "#Poster Presentation",
+      "#Competition",
+      "#Data Science",
+      "#ACM India",
+      "#External Event"
+    ],
+    "startDate": "2025-03-29",
+    "endDate": "2025-03-29",
+    "year": 2025,
+    "venue": "1st Floor, IRC, Kalasalingam University",
+    "images": [
+      "/events/acm_india_industry_day_poster_presentation_competition_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Ideas to Innovation: A Complete Guide on Patent Filing and Publication",
+    "date": "FEB 3",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "An industry expert talk providing a complete guide on patent filing and publication, from idea to innovation. Presented by Malathi Ramakrishnan, Senior Software Engineer at Dell EMC2.",
+    "tags": [
+      "#Patent Filing",
+      "#Innovation",
+      "#Publication",
+      "#Intellectual Property",
+      "#Industry Talk"
+    ],
+    "startDate": "2024-02-03",
+    "endDate": "2024-02-03",
+    "year": 2024,
+    "venue": "Admin Block Seminar Hall, Kalasalingam University",
+    "images": [
+      "/events/ideas_to_innovation_a_complete_guide_on_patent_filing_and_pu_1.jpeg",
+      "/events/ideas_to_innovation_a_complete_guide_on_patent_filing_and_pu_2.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "College Ready: Empowering Students to Start Their Coding Journey",
+    "date": "SEP 4",
+    "type": "talk",
+    "price": "FREE",
+    "desc": "An out-reach program for students of Linga Global School to prepare them for college. The agenda covered understanding college life, the coding journey, career paths, networking, and time management.",
+    "tags": [
+      "#Outreach Program",
+      "#College Ready",
+      "#Coding Journey",
+      "#Student Guidance"
+    ],
+    "startDate": "2024-09-04",
+    "endDate": "2024-09-04",
+    "year": 2024,
+    "venue": "TBD",
+    "images": [
+      "/events/college_ready_empowering_students_to_start_their_coding_jour_1.jpeg",
+      "/events/college_ready_empowering_students_to_start_their_coding_jour_2.jpeg",
+      "/events/college_ready_empowering_students_to_start_their_coding_jour_3.jpeg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "Workshop on Research Opportunities in Computer Science (ROCS)",
+    "date": "MAR 8",
+    "type": "workshop",
+    "price": "FREE",
+    "desc": "An ACM India sponsored one-day workshop on Research Opportunities in Computer Science (ROCS), featuring multiple speakers from institutions like IIT Madras, IIT Palakkad, and IISc Bangalore.",
+    "tags": [
+      "#Workshop",
+      "#Research",
+      "#Computer Science",
+      "#ROCS",
+      "#ACM India"
+    ],
+    "startDate": "2025-03-08",
+    "endDate": "2025-03-08",
+    "year": 2025,
+    "venue": "Admin Block Seminar Hall, KARE, Srivilliputtur",
+    "images": [
+      "/events/workshop_on_research_opportunities_in_computer_science_rocs_1.jpg",
+      "/events/workshop_on_research_opportunities_in_computer_science_rocs_2.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": null
+  },
+  {
+    "title": "HACKARE 3.0",
+    "date": "OCT 31",
+    "type": "hackathon",
+    "price": "FREE",
+    "desc": "A 24-hour offline hackathon focusing on current technologies with problem statements aligned with United Nations Sustainable Development Goals (SDGs). Teams of 4-5 members compete for a prize pool of ₹14,000 and 1 Experiential Elective (EE) Credit.",
+    "tags": [
+      "#Hackathon",
+      "#SDGs",
+      "#Sustainable Development Goals",
+      "#Coding",
+      "#Innovation",
+      "#NINTRA"
+    ],
+    "startDate": "2025-10-31",
+    "endDate": "2025-11-01",
+    "year": 2025,
+    "venue": "TIFAC CORE (CCF LAB), Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/hackare_3_0_1.jpg",
+      "/events/hackare_3_0_2.jpg",
+      "/events/hackare_3_0_3.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 0
+  },
+  {
+    "title": "DISFRUTAR 2K25",
+    "date": "AUG 27",
+    "type": "hackathon",
+    "price": "Rs 500",
+    "desc": "A comprehensive tech event featuring a 24-hour hackathon, Generative AI bootcamp, DevOps bootcamp, and AI bootcamp with industry experts. Participants can earn 2 Experiential Elective credits, co-curricular credits, and valuable certificates. The hackathon entry fee is ₹500 per head.",
+    "tags": [
+      "#Hackathon",
+      "#Generative AI",
+      "#DevOps",
+      "#Bootcamp",
+      "#Industry Experts",
+      "#Competition"
+    ],
+    "startDate": "2025-08-27",
+    "endDate": "2025-08-31",
+    "year": 2025,
+    "venue": "Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/disfrutar_2k25_1.jpg",
+      "/events/disfrutar_2k25_2.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 0
+  },
+  {
+    "title": "LAUNCH PAD",
+    "date": "OCT 14",
+    "type": "hackathon",
+    "price": "Rs 150",
+    "desc": "A two-round software development competition. Round 1 (Oct 14) focuses on software planning and enhancement, while the Final Round (Oct 16) involves project deployment evaluated by industry experts. Winners receive cash prizes and 1 Experiential Elective (EE) Credit.",
+    "tags": [
+      "#Competition",
+      "#Software Development",
+      "#Project Deployment",
+      "#Industry Experts",
+      "#Launch Pad"
+    ],
+    "startDate": "2025-10-14",
+    "endDate": "2025-10-16",
+    "year": 2025,
+    "venue": "Admin Block Seminar Hall (Round 1) & 8th Block Seminar Hall (Final Round), Kalasalingam University",
+    "images": [
+      "/events/launch_pad_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 0
+  },
+  {
+    "title": "ACM India Summer Schools 2025: IoT and Next Generation Networks",
+    "date": "JUN 16",
+    "type": "workshop",
+    "price": "FREE",
+    "desc": "An ACM India Summer School hosted by KARE on 'IoT and Next Generation Networks'. This intensive learning program offers deep dives into IoT technologies. The application deadline is April 13, 2025.",
+    "tags": [
+      "#IoT",
+      "#Next Generation Networks",
+      "#Summer School",
+      "#ACM India",
+      "#Workshop"
+    ],
+    "startDate": "2025-06-16",
+    "endDate": "2025-06-28",
+    "year": 2025,
+    "venue": "Kalasalingam Academy of Research and Education (KARE), Madurai",
+    "images": [
+      "/events/acm_india_summer_schools_2025_iot_and_next_generation_networ_1.jpg",
+      "/events/acm_india_summer_schools_2025_iot_and_next_generation_networ_2.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 0
+  },
+  {
+    "title": "MERNify: A Peer Session On Full Stack Development",
+    "date": "OCT 23",
+    "type": "workshop",
+    "price": "FREE",
+    "desc": "A 5-day peer session on Full Stack Development covering Introduction, Backend (Node.js & Express), Database (MongoDB), Frontend (React.js), and Deployment. Includes hands-on projects and an online ACM certificate.",
+    "tags": [
+      "#Full Stack",
+      "#MERN",
+      "#Web Development",
+      "#Peer Session",
+      "#Workshop",
+      "#MongoDB",
+      "#React",
+      "#Node.js"
+    ],
+    "startDate": "2025-10-23",
+    "endDate": "2025-10-29",
+    "year": 2025,
+    "venue": "8301 LAB, Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/mernify_a_peer_session_on_full_stack_development_1.jpg",
+      "/events/mernify_a_peer_session_on_full_stack_development_2.jpg",
+      "/events/mernify_a_peer_session_on_full_stack_development_3.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 0
+  },
+  {
+    "title": "Open Source Contributions: A Beginner's Guide",
+    "date": "MAR 20",
+    "type": "seminar",
+    "price": "FREE",
+    "desc": "A free introductory session on how to get started with open source contributions. Learn about Git workflows, finding good first issues, and making impactful contributions to real-world projects. Open to all students — no registration fee required!",
+    "tags": [
+      "#open-source",
+      "#git",
+      "#beginners",
+      "#workshop"
+    ],
+    "startDate": "2026-03-20",
+    "endDate": "2026-03-20",
+    "year": 2026,
+    "venue": "TIFAC Core Cyber Security Lab, KARE",
+    "images": [
+      "/events/open_source_contributions_a_beginners_guide_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 80
+  },
+  {
+    "title": "Pair Programming Showdown 2026",
+    "date": "MAR 28",
+    "type": "other",
+    "price": "Rs 200",
+    "desc": "An exciting pair programming competition where teams of 2 collaborate to solve challenging algorithmic problems under a time limit. Test your coordination and coding skills with your partner. Cash prizes for the top 3 teams!",
+    "tags": [
+      "#pair-programming",
+      "#coding",
+      "#competition",
+      "#algorithms"
+    ],
+    "startDate": "2026-03-28",
+    "endDate": "2026-03-28",
+    "year": 2026,
+    "venue": "Computer Lab 1, Block A, KARE",
+    "images": [
+      "/events/pair_programming_showdown_2026_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 50
+  },
+  {
+    "title": "UI/UX Design Sprint Challenge",
+    "date": "APR 5",
+    "type": "hackathon",
+    "price": "Rs 300",
+    "desc": "A high-energy design sprint where teams of 3 ideate, prototype, and present stunning UI/UX solutions for given problem statements. Judges from the industry will evaluate designs on creativity, usability, and innovation.",
+    "tags": [
+      "#ui-ux",
+      "#design",
+      "#sprint",
+      "#competition",
+      "#figma"
+    ],
+    "startDate": "2026-04-05",
+    "endDate": "2026-04-05",
+    "year": 2026,
+    "venue": "Seminar Hall, CSE Dept, KARE",
+    "images": [
+      "/events/ui_ux_design_sprint_challenge_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 40
+  },
+  {
+    "title": "CodeCraft 2026: Full-Stack Development Challenge",
+    "date": "APR 12",
+    "type": "hackathon",
+    "price": "Rs 400",
+    "desc": "A 12-hour full-stack development challenge where teams of 4 build a complete web application from scratch. Problem statements will be revealed on the spot. Prizes worth ₹15,000 and internship opportunities for winners!",
+    "tags": [
+      "#full-stack",
+      "#web-development",
+      "#hackathon",
+      "#competition",
+      "#coding"
+    ],
+    "startDate": "2026-04-12",
+    "endDate": "2026-04-12",
+    "year": 2026,
+    "venue": "Main Auditorium, KARE",
+    "images": [
+      "/events/codecraft_2026_full_stack_development_challenge_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 60
+  },
+  {
+    "title": "HackNova 2026: AI & Innovation Hackathon",
+    "date": "APR 25",
+    "type": "hackathon",
+    "price": "Rs 500",
+    "desc": "A 24-hour national-level hackathon where teams of 5 tackle real-world challenges using AI, Machine Learning, and emerging technologies. Mentoring sessions with industry experts included. Total prize pool of ₹50,000!",
+    "tags": [
+      "#hackathon",
+      "#AI",
+      "#machine-learning",
+      "#innovation",
+      "#national"
+    ],
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-26",
+    "year": 2026,
+    "venue": "TIFAC CORE (CCF LAB), Kalasalingam Academy of Research and Education",
+    "images": [
+      "/events/hacknova_2026_ai_and_innovation_hackathon_1.jpg"
+    ],
+    "mode": "offline",
+    "maxCapacity": 100
+  }
+]

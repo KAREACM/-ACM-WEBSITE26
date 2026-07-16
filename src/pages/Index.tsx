@@ -3,14 +3,16 @@ import { Reveal } from "@/components/acm/Reveal";
 import { TeamDeck } from "@/components/acm/TeamDeck";
 import { Magnetic } from "@/components/acm/Magnetic";
 import { EventsTimeline } from "@/components/acm/EventsTimeline";
+import { latestBlogs } from "@/components/acm/blogsData";
 import { ArrowUpRight, Mail, Github, Linkedin, Twitter, ExternalLink, Code, Database, Smartphone, Shield, BookOpen, MapPin, ChevronRight } from "lucide-react";
 import { useEffect, useState, useRef } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { AwardModal } from "@/components/acm/AwardModal";
 import { motion, AnimatePresence, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { LogoPreloader } from "@/components/acm/LogoPreloader";
-
+import { Footer } from "@/components/acm/Footer";
 gsap.registerPlugin(ScrollTrigger);
 
 const stats = [
@@ -225,14 +227,25 @@ const Typewriter = ({ texts }: { texts: string[] }) => {
 
 export default function Index() {
   const containerRef = useRef(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(() => !sessionStorage.getItem('introPlayed'));
   const { scrollYProgress } = useScroll({ target: containerRef });
   const logoRotation = useTransform(scrollYProgress, [0, 1], [0, 720]);
   const heroY = useTransform(scrollYProgress, [0, 0.3], [0, -150]);
   const heroOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
 
+  const location = useLocation();
+  const navigate = useNavigate();
+
   useEffect(() => {
     if (loading) return;
+
+    if (location.hash) {
+      const id = location.hash.substring(1);
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
 
     // Reveal sections on scroll
     gsap.utils.toArray('.scroll-reveal').forEach((section: any) => {
@@ -252,7 +265,7 @@ export default function Index() {
   return (
     <>
       <AnimatePresence>
-        {loading && <LogoPreloader onComplete={() => setLoading(false)} />}
+        {loading && <LogoPreloader onComplete={() => { sessionStorage.setItem('introPlayed', 'true'); setLoading(false); }} />}
       </AnimatePresence>
 
       {!loading && (
@@ -352,7 +365,7 @@ export default function Index() {
                   </button>
                 </Magnetic>
                 <Magnetic>
-                  <button onClick={() => document.getElementById("events")?.scrollIntoView({ behavior: 'smooth' })}
+                  <button onClick={() => navigate("/events")}
                     style={{ clipPath: "polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%)" }}
                     className="px-12 py-5 font-black text-xs uppercase tracking-widest bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cyan-500/50 hover:text-cyan-400 backdrop-blur-md transition-all text-white hover:scale-105 active:scale-95">
                     Explore Events
@@ -532,29 +545,31 @@ export default function Index() {
                    <span className="font-mono text-cyan-400 text-[10px] font-bold tracking-[0.4em] uppercase mb-6 block">Insights</span>
                    <h2 className="text-5xl md:text-6xl font-black tracking-tighter text-white">Latest Articles</h2>
                  </div>
-                 <button className="px-6 py-3 rounded-full border border-white/20 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-colors">
+                 <button onClick={() => navigate("/blogs")} className="px-6 py-3 rounded-full border border-white/20 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-colors cursor-pointer">
                    View All Blogs
                  </button>
                </div>
 
                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-                 {[1, 2, 3].map((_, i) => (
-                   <div key={i} className="scroll-reveal group flex flex-col bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden hover:border-cyan-500/50 transition-colors duration-500">
+                 {latestBlogs.map((blog, i) => (
+                   <a key={blog._id} href={blog.link} target="_blank" rel="noopener noreferrer" className="scroll-reveal group flex flex-col bg-white/5 border border-white/10 rounded-[2rem] overflow-hidden hover:border-cyan-500/50 transition-colors duration-500">
                      <div className="h-48 overflow-hidden relative">
-                       <img src={`https://images.unsplash.com/photo-${1550000000000 + i * 10000}?auto=format&fit=crop&q=80`} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-70" />
+                       <img src={blog.image} alt={blog.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-70" loading="lazy" decoding="async" />
                        <div className="absolute top-4 left-4 px-3 py-1 bg-black/80 backdrop-blur-md rounded-full border border-white/10 text-[10px] font-bold text-cyan-400 uppercase tracking-widest">
-                         {["AI Research", "Web Dev", "Cybersec"][i]}
+                         {blog.category}
                        </div>
                      </div>
                      <div className="p-8 flex flex-col flex-grow">
-                       <span className="text-slate-500 text-xs font-mono mb-4 block">May {7 + i}, 2026 • 5 min read</span>
-                       <h3 className="text-xl font-bold text-white mb-4 group-hover:text-cyan-400 transition-colors">The Future of Generative Models in Software Engineering</h3>
-                       <p className="text-slate-400 text-sm leading-relaxed mb-8 flex-grow">Exploring how large language models are reshaping the way developers write and debug code in modern IDEs.</p>
+                       <span className="text-slate-500 text-xs font-mono mb-4 block">
+                         {new Date(blog.createdAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })} • By {blog.author}
+                       </span>
+                       <h3 className="text-xl font-bold text-white mb-4 group-hover:text-cyan-400 transition-colors">{blog.title}</h3>
+                       <p className="text-slate-400 text-sm leading-relaxed mb-8 flex-grow">{blog.description}</p>
                        <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-cyan-400 group-hover:text-cyan-300">
                          Read Article <ArrowUpRight size={14} />
                        </div>
                      </div>
-                   </div>
+                   </a>
                  ))}
                </div>
              </div>
@@ -616,16 +631,7 @@ export default function Index() {
             </div>
           </section>
 
-          <footer className="py-12 bg-black border-t border-white/10">
-            <div className="container mx-auto px-6 text-center">
-              <div className="w-16 h-16 mx-auto mb-8 opacity-50 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-pointer">
-                <img src="/ACM_LOGO.png" className="w-full h-full object-contain" />
-              </div>
-              <p className="text-[10px] text-slate-500 font-bold tracking-[0.5em] uppercase">
-                © 2026 Kalasalingam Academy ACM Student Chapter
-              </p>
-            </div>
-          </footer>
+          <Footer />
         </motion.div>
       )}
     </>

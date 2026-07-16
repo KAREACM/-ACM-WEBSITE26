@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Magnetic } from "./Magnetic";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const NAV = [
   { label: "HOME",    id: "top" },
@@ -16,6 +17,8 @@ export const Nav = () => {
   const [scrolled, setScrolled]   = useState(false);
   const [active,   setActive]     = useState("HOME");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
@@ -23,12 +26,49 @@ export const Nav = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  useEffect(() => {
+    if (location.pathname === "/events") {
+      setActive("EVENTS");
+    } else {
+      // In a real app we might determine active based on scroll position, 
+      // but keeping it simple for now based on what was last clicked.
+      if (active === "EVENTS") {
+        setActive("HOME");
+      }
+    }
+  }, [location.pathname]);
+
   const handleNav = (id: string, label: string) => {
     setActive(label);
     setMobileOpen(false);
+
+    if (id === "events") {
+      navigate("/events");
+      return;
+    }
+
+    if (location.pathname !== "/") {
+      navigate(`/#${id}`);
+      return;
+    }
+
+    if (id === "top") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
     const el = document.getElementById(id);
     if(el) {
       el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const handleLogoClick = () => {
+    setActive("HOME");
+    if (location.pathname !== "/") {
+      navigate("/");
+    } else {
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
@@ -39,7 +79,7 @@ export const Nav = () => {
           
           {/* Logo — left */}
           <div className="pointer-events-auto flex items-center gap-4 group cursor-pointer"
-            onClick={() => handleNav("top", "HOME")}>
+            onClick={handleLogoClick}>
             <Magnetic>
               <div className="w-12 h-12 transition-all group-hover:scale-110 bg-white/5 rounded-2xl p-2 border border-white/10 backdrop-blur-md">
                 <img src="/ACM_LOGO.png" alt="ACM KARE" className="w-full h-full object-contain" />

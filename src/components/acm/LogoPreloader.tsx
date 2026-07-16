@@ -20,7 +20,7 @@ export const LogoPreloader = ({ onComplete }: { onComplete: () => void }) => {
       {/* Video Container - Fullscreen & Borderless */}
       <div className="absolute inset-0 w-full h-full overflow-hidden flex items-center justify-center bg-black">
         <video 
-          src="/7月9日.mp4" 
+          src="/intro-video.mp4" 
           autoPlay 
           muted 
           playsInline 
