@@ -134,11 +134,24 @@ const seedDataIfEmpty = () => {
   }
 };
 
-const facultyCoordinators = [
+const primaryAdvisors = [
+  {
+    id: 'fc-deepalakshmi',
+    name: 'Dr. P. Deepalakshmi',
+    role: 'Faculty Advisor',
+    image: '/assets/images/faculty/dr_p_deepalakshmi.jpg',
+    specializations: ['Python Programming', 'Academic Leadership', 'Accreditation', 'CSE Research'],
+    bio: "Dr. P. Deepalakshmi's educational journey began with a B.Sc. in Mathematics from A.K.D. Dharmaraja Arts and Science College for Women (Madurai Kamaraj University) in 1998, graduating with first-class distinction and 90%. She went on to complete her MCA from Madurai Kamaraj University in 2001, followed by an M.E. in Computer Science and Engineering from Arulmigu Kalasalingam College of Engineering in 2005, and earned her Ph.D. in CSE from Kalasalingam University in 2013.\n\nStarting her professional career in the software industry, she worked at Patni Computer Systems in Mumbai as a Project Assistant and Software Engineer. Transitioning into academia, she served as a Lecturer at Arulmigu Kalasalingam College of Engineering, and later as an Assistant Professor, Associate Professor, and Head of the CSE Department at Kalasalingam University. Since July 2017, she has been a Professor and Dean at the School of Computing at Kalasalingam Academy of Research and Education (KARE), and was appointed Director of Accreditation and Ranking in June 2024.\n\nDr. Deepalakshmi is a certified Python mentor with Gold in NPTEL, holds key memberships in professional bodies like ACM, IEEE, ISTE, and CSI, and has served as President of the Madurai ACM Professional Chapter. She has organized over 250 co-curricular activities, successfully secured multiple academic accreditations, led numerous research projects, and holds several patents and publications while supervising numerous Ph.D. scholars.",
+    stats: { experience: '22+ Yrs', activities: '250+', certificates: 'Gold' },
+    linkedin: 'https://in.linkedin.com/in/dr-p-deepalakshmi-ramkumar-32408817',
+    profileLink: 'https://www.drdeepalakshmi.in/',
+    email: 'deepa.kumar@klu.ac.in',
+    contact: '+91 883-801-0443',
+  },
   {
     id: 'fc-chinnasamy',
     name: 'Dr. P. Chinnasamy',
-    role: 'Associate Professor & Research Supervisor',
+    role: 'Faculty Sponsor',
     image: '/assets/images/faculty/dr_p_chinnasamy.jpg',
     specializations: ['Cloud Security', 'Cryptography', 'Blockchain', 'Access Control'],
     bio: 'Anna University Research Supervisor with Ph.D. in CSE. Expert in cloud computing security with 19 SCIE publications, 15 patents, and supervises 6 PhD scholars. Co-PI on international project with UTAR Malaysia.',
@@ -146,59 +159,50 @@ const facultyCoordinators = [
     linkedin: 'https://www.linkedin.com/in/dr-p-chinnasamy-52674b3b',
     profileLink: 'https://chinnaswamyy.netlify.app/',
     email: 'chinnasamyponnusamy@gmail.com',
-  },
-  {
-    id: 'fc-reshini',
-    name: 'Ms. S. Reshini',
-    role: 'Assistant Professor & AI Researcher',
-    image: '/assets/images/faculty/ms_reshini.jpg',
-    specializations: ['Machine Learning', 'Data Analytics', 'Emergency Vehicle Detection', 'NLP'],
-    bio: 'AI researcher with 5 years of industry experience at KGISL and 2+ years in academia. Research focuses on emergency vehicle detection using YOLOv9 & R-CNN, and data analytics for E-commerce.',
-    stats: { publications: '3', yearsTeaching: '2+', yearsIndustry: '5' },
-    linkedin: 'https://www.linkedin.com/in/reshni-suresh-5b94061b',
-    profileLink: 'https://sreshinii.netlify.app/',
-    email: 's.reshini@klu.ac.in',
-  },
+  }
+];
+
+const facultyCoordinators = [
   {
     id: 'fc-nagarajan',
     name: 'Dr. Nagarajan M.K.',
-    role: 'Associate Professor & CS Research Expert',
+    role: 'Associate Professor',
     image: '/assets/images/faculty/dr_nagarajan.jpg',
-    specializations: ['Wireless Sensor Networks', 'Cloud Computing', 'Network Security', 'IoT'],
-    bio: 'Ph.D. from Anna University (2024) with 15+ years of academic excellence. Expert in energy-efficient routing, swarm intelligence algorithms. Holds 3 patents including Robotic Surgery Machine.',
-    stats: { publications: '15+', patents: '3', experience: '15+' },
+    specializations: ['Wireless Sensor Networks', 'Cloud Computing', 'Network Security', 'Software Engineering', 'Database Technology'],
+    bio: "Dr. Nagarajan M.K. is an Associate Professor at Kalasalingam Academy of Research and Education with 15+ years of dedicated experience in computer science education and research. With a Ph.D. in I&CE from Anna University, Chennai (2024), he specializes in wireless sensor networks, cloud computing, and network security. Throughout his career, he has handled diverse subjects including computer networks, software engineering, and database technology. He serves as Grade Verification Committee member and Lab In-charge for department laboratories.",
+    stats: { experience: '15+ Years', publications: '15+', patents: '3' },
     linkedin: '#',
     profileLink: 'https://nagarajann.netlify.app/',
     email: 'nagarajan45@gmail.com',
+    contact: '+91 9994450768',
   },
   {
-    id: 'fc-marimuthu',
-    name: 'Dr. Marimuthu',
-    role: 'Assistant Professor & Researcher in Computer Science',
-    image: '/assets/images/faculty/dr_marimuthu.jpg',
-    specializations: ['Bio-computational Models', 'Machine Learning', 'Healthcare AI', 'Deep Learning'],
-    bio: 'MCA Gold Medalist with 16+ years teaching experience. ISRO project trainee. Ph.D. in bio-computational models for dengue gene analysis. UGC Minor Research Project recipient (₹1.6L).',
-    stats: { publications: '21', experience: '16+', students: '500+' },
-    linkedin: '#',
-    profileLink: 'https://marimuthuu.netlify.app/',
-    email: 'marimuthu@klu.ac.in',
+    id: 'fc-parivazhagan',
+    name: 'Dr. A. Parivazhagan',
+    role: 'Associate Professor',
+    image: '/assets/images/faculty/dr_parivazhagan_a.jpg',
+    specializations: ['Ear Recognition', 'Face Recognition', 'Pattern Recognition', 'Image Processing', 'Biometrics'],
+    bio: "Dr. A. Parivazhagan is an Associate Professor in the CSE Department at Kalasalingam Academy of Research and Education (KARE), having joined in July 2022. He specializes in biometrics, pattern recognition, image processing, and AI-enabled healthcare systems. He has published numerous research papers in international journals and IEEE conferences, including work on LeNet-Cascade Neuro-Fuzzy Networks (LCNFN), smart gardening, crop yield prediction, and brain tumor detection using fusion LSTM/Bi-LSTM networks.",
+    stats: { publications: '17+', experience: '4+ Years' },
+    linkedin: 'https://in.linkedin.com/in/dr-parivazhagan-a-a6a94a274',
+    profileLink: '#',
+    email: 'a.parivazhagan@klu.ac.in',
   },
   {
-    id: 'fc-surendiran',
-    name: 'D. Surendiran Muthukumar',
-    role: 'Assistant Professor & PhD Research Scholar',
-    image: '/assets/images/faculty/d_surendiran_muthukumar.jpg',
-    specializations: ['Algorithm Intelligence', 'Robotics', 'Federated Learning', 'Autonomous Vehicles'],
-    bio: 'Pursuing PhD at KARE with focus on federated learning in healthcare. Developed autonomous surface vehicles & underwater bio-mimics robots for NSTL & IIT Indore. 4 Scopus publications.',
-    stats: { publications: '4', fundedProjects: '2', conferences: '3' },
+    id: 'fc-krithiga',
+    name: 'Mrs. N. Krithiga',
+    role: 'Assistant Professor',
+    image: '/assets/images/faculty/mrs_n_krithiga.jpg',
+    specializations: ['Software Engineering', 'Machine Learning', 'Big Data Analytics', 'Cloud Computing'],
+    bio: "Mrs. N. Krithiga is an Assistant Professor in the School of Computing at Kalasalingam Academy of Research and Education. She joined KARE in March 2022. Dedicated to academic excellence, software engineering education, machine learning research, and student project mentorship.",
+    stats: { experience: '4+ Years' },
     linkedin: '#',
-    profileLink: 'https://surendirann.netlify.app/',
-    email: 'd.surendiran@klu.ac.in',
+    email: 'n.krithiga@klu.ac.in',
   },
   {
     id: 'fc-gurusigaamani',
     name: 'Dr. Gurusigaamani',
-    role: 'Assistant Professor & AI Research Expert',
+    role: 'Assistant Professor',
     image: '/assets/images/faculty/dr_gurusigaamani.jpg',
     specializations: ['Machine Learning', 'Deep Learning', 'Healthcare AI', 'IoT Security'],
     bio: "10+ years in CS education. Pursuing PhD in CSE. Supervised 260+ students, organized Techathon'25 hackathon & multiple ACM events. Published in IEEE, authored 2 books on IoT/Big Data and AI in Cloud.",
@@ -206,6 +210,53 @@ const facultyCoordinators = [
     linkedin: '#',
     profileLink: 'https://gurusigaamani.netlify.app/',
     email: 'gurusigaamani@klu.ac.in',
+  },
+  {
+    id: 'fc-reshini',
+    name: 'Ms. S. Reshini',
+    role: 'Assistant Professor',
+    image: '/assets/images/faculty/ms_reshini.jpg',
+    specializations: ['Machine Learning', 'Data Analytics', 'Emergency Vehicle Detection', 'NLP'],
+    bio: "AI researcher with 5 years of industry experience at KGISL and 2+ years in academia. Research focuses on emergency vehicle detection using YOLOv9 & R-CNN, and data analytics for E-commerce.",
+    stats: { publications: '3', yearsTeaching: '2+', yearsIndustry: '5' },
+    linkedin: 'https://www.linkedin.com/in/reshni-suresh-5b94061b',
+    profileLink: 'https://sreshinii.netlify.app/',
+    email: 's.reshini@klu.ac.in',
+  },
+  {
+    id: 'fc-sivamurugan',
+    name: 'Mr. Sivamurugan Chelladurai',
+    role: 'Assistant Professor',
+    image: '/assets/images/faculty/sivamurugan.jpg',
+    specializations: ['PLC Programming', 'Industrial Automation', 'Process Control', 'Project Management'],
+    bio: "Mr. Sivamurugan Chelladurai is an Assistant Professor at Kalasalingam Academy of Research and Education. He has 8+ years of comprehensive experience in installation, commissioning, maintenance, service, project management, and troubleshooting in the automation and process industry. Having worked on international automation projects across Rwanda and India, he is currently pursuing a part-time Ph.D. in Electronics & Communication Engineering.",
+    stats: { experience: '8+ Years', projects: '3 International', teamLed: '20+' },
+    linkedin: 'https://www.linkedin.com/in/sivamurugan-chelladurai-243b56101',
+    email: 'sivaapril1704@gmail.com',
+    contact: '+91 7502658564',
+  },
+  {
+    id: 'fc-marimuthu',
+    name: 'Dr. T. Marimuthu',
+    role: 'Assistant Professor',
+    image: '/assets/images/faculty/dr_marimuthu.jpg',
+    specializations: ['Bio-computational Models', 'Machine Learning', 'Deep Learning', 'Healthcare AI'],
+    bio: "Dr. T. Marimuthu is an Assistant Professor at Kalasalingam Academy of Research and Education and Deputy Director for the Centre for Distance and Online Education. He has over 16 years of teaching experience and a strong research background in bio-computational models and machine learning applications. He holds a Ph.D. in Computer Applications from Manonmaniam Sundaranar University (2017) and was a project trainee at ISRO Satellite Centre.",
+    stats: { experience: '16+ Years', publications: '21', grant: '1.6 Lakhs' },
+    linkedin: 'https://www.linkedin.com/in/dr-t-marimuthu-cse-4a9284281',
+    email: 'mastersvksmca@gmail.com',
+    contact: '+91 9442666425',
+  },
+  {
+    id: 'fc-lavanya',
+    name: 'Mrs. Lavanya',
+    role: 'Assistant Professor',
+    image: '/assets/images/faculty/mrs_lavanya.jpg',
+    specializations: ['Database Management', 'Cloud Computing', 'Web Technologies', 'Software Design'],
+    bio: "Mrs. Lavanya is an Assistant Professor in the School of Computing at Kalasalingam Academy of Research and Education. Dedicated educator committed to computer science instruction, student project mentorship, and contributing to the academic development of the department.",
+    stats: { experience: '3+ Years' },
+    linkedin: '#',
+    email: 'lavanya@klu.ac.in',
   }
 ];
 
@@ -346,9 +397,9 @@ const CinematicOverlay = ({ members, onComplete }: { members: any[], onComplete:
 
         {phase === 'faculty' && (
            <motion.div key="faculty" initial={{ opacity: 0, scale: 0.8, y: 50 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 1.2, filter: 'blur(10px)' }} transition={{ duration: 1, ease: "easeOut" }} className="absolute z-10 flex flex-col items-center pointer-events-none">
-              <span className="text-cyan-400 font-mono tracking-[0.5em] text-xs md:text-sm uppercase mb-8 animate-pulse text-center">Faculty Coordinator</span>
+              <span className="text-cyan-400 font-mono tracking-[0.5em] text-xs md:text-sm uppercase mb-8 animate-pulse text-center">Faculty Advisor</span>
               <div className="w-72 md:w-80 aspect-[3/4] pointer-events-auto">
-                <HologramCard member={facultyCoordinators[0]} />
+                <HologramCard member={primaryAdvisors[0]} />
               </div>
            </motion.div>
         )}
@@ -442,15 +493,19 @@ const MemberModal = ({ member, onClose }: { member: any, onClose: () => void }) 
             </p>
 
             <div className="space-y-6 mb-8">
-              <div>
-                <h4 className="text-white font-bold text-xs mb-2 uppercase tracking-widest">Contact Details</h4>
-                <div className="text-slate-400 text-xs space-y-1 font-mono">
-                  <p>Email: <span className="text-cyan-400">{member.email || "acm@klu.ac.in"}</span></p>
-                  {(member.id === 'chair' || member.role.toLowerCase() === 'chair') && member.contact && (
-                    <p>Phone: <span className="text-cyan-400">{member.contact}</span></p>
-                  )}
+              {(member.email || member.contact) && (
+                <div>
+                  <h4 className="text-white font-bold text-xs mb-2 uppercase tracking-widest">Contact Details</h4>
+                  <div className="text-slate-400 text-xs space-y-1 font-mono">
+                    {member.email && member.email !== '#' && (
+                      <p>Email: <span className="text-cyan-400">{member.email}</span></p>
+                    )}
+                    {member.contact && member.contact !== '#' && (
+                      <p>Phone: <span className="text-cyan-400">{member.contact}</span></p>
+                    )}
+                  </div>
                 </div>
-              </div>
+              )}
               
               <div>
                 <h4 className="text-white font-bold text-xs mb-2 uppercase tracking-widest">Core Skills</h4>
@@ -468,7 +523,7 @@ const MemberModal = ({ member, onClose }: { member: any, onClose: () => void }) 
             </div>
 
             <div className="flex gap-4">
-              {member.linkedin ? (
+              {member.linkedin && member.linkedin !== '#' && (
                 <a 
                   href={member.linkedin.startsWith('http') ? member.linkedin : `https://${member.linkedin}`} 
                   target="_blank" 
@@ -477,10 +532,8 @@ const MemberModal = ({ member, onClose }: { member: any, onClose: () => void }) 
                 >
                   <Linkedin size={18} />
                 </a>
-              ) : (
-                <a href="#" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-black hover:bg-cyan-400 hover:border-cyan-400 transition-all hover:scale-110"><Linkedin size={18} /></a>
               )}
-              {member.github ? (
+              {member.github && member.github !== '#' && (
                 <a 
                   href={member.github.startsWith('http') ? member.github : `https://${member.github}`} 
                   target="_blank" 
@@ -489,25 +542,29 @@ const MemberModal = ({ member, onClose }: { member: any, onClose: () => void }) 
                 >
                   <Github size={18} />
                 </a>
-              ) : (
-                <a href="#" className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-black hover:bg-cyan-400 hover:border-cyan-400 transition-all hover:scale-110"><Github size={18} /></a>
               )}
-              <a 
-                href={member.email ? `mailto:${member.email}` : `mailto:acm@klu.ac.in`} 
-                className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-black hover:bg-cyan-400 hover:border-cyan-400 transition-all hover:scale-110"
-              >
-                <Mail size={18} />
-              </a>
-              {member.portfolio && (
+              {member.email && member.email !== '#' && (
                 <a 
-                  href={member.portfolio.startsWith('http') ? member.portfolio : `https://${member.portfolio}`} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                  href={`mailto:${member.email}`} 
                   className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-black hover:bg-cyan-400 hover:border-cyan-400 transition-all hover:scale-110"
                 >
-                  <Globe size={18} />
+                  <Mail size={18} />
                 </a>
               )}
+              {(() => {
+                const link = member.portfolio || member.profileLink;
+                if (!link || link === '#') return null;
+                return (
+                  <a 
+                    href={link.startsWith('http') ? link : `https://${link}`} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="w-12 h-12 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-slate-400 hover:text-black hover:bg-cyan-400 hover:border-cyan-400 transition-all hover:scale-110"
+                  >
+                    <Globe size={18} />
+                  </a>
+                );
+              })()}
             </div>
             
             <button onClick={onClose} className="mt-10 text-slate-500 hover:text-cyan-400 text-xs font-mono uppercase tracking-widest transition-colors flex items-center gap-2 group">
@@ -548,7 +605,7 @@ export const TeamDeck = () => {
     const memberId = params.get('member');
     if (memberId && !selectedMember) {
       const storedMembers = JSON.parse(localStorage.getItem('acm_members') || '[]');
-      const found = facultyCoordinators.find(m => m.id === memberId) || storedMembers.find((m: any) => m.id === memberId);
+      const found = primaryAdvisors.find(m => m.id === memberId) || facultyCoordinators.find(m => m.id === memberId) || storedMembers.find((m: any) => m.id === memberId);
       if (found) {
         setSelectedMember(found);
         setIntroPlayed(true);
@@ -842,15 +899,45 @@ export const TeamDeck = () => {
           Faculty Advisors
           <span className="w-12 h-[2px] bg-cyan-500/50 shadow-[0_0_10px_rgba(6,182,212,0.8)] acm-team-border-active"></span>
         </h3>
-        <div className="flex flex-wrap justify-center gap-6 md:gap-8 max-w-6xl mx-auto font-bold">
+
+        {/* Tier 1: Two Prominent Advisor/Sponsor Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-3xl mx-auto justify-center mb-16 px-4">
+          {primaryAdvisors.map((member, i) => (
+            <motion.div 
+              key={member.id} 
+              initial={{ opacity: 0, y: 30 }} 
+              whileInView={{ opacity: 1, y: 0 }} 
+              transition={{ delay: i * 0.15, duration: 0.8 }} 
+              viewport={{ once: true }}
+              className="flex flex-col items-center"
+            >
+              <h4 className="text-cyan-400 font-mono text-[10px] font-bold uppercase tracking-[0.2em] mb-4">
+                {member.role}
+              </h4>
+              <div className="w-64 md:w-72 aspect-[3/4]">
+                <HologramCard member={member} onClick={() => setSelectedMember(member)} />
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Divider Accent */}
+        <div className="flex items-center justify-center gap-4 mb-16">
+          <div className="w-24 h-[1px] bg-gradient-to-r from-transparent to-white/10"></div>
+          <span className="text-[10px] font-mono text-slate-500 uppercase tracking-[0.3em]">Faculty Coordinators</span>
+          <div className="w-24 h-[1px] bg-gradient-to-l from-transparent to-white/10"></div>
+        </div>
+
+        {/* Tier 2: 8 Coordinators Grid */}
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8 max-w-6xl mx-auto font-bold justify-items-center">
           {facultyCoordinators.map((member, i) => (
             <motion.div 
               key={member.id} 
               initial={{ opacity: 0, y: 30 }} 
               whileInView={{ opacity: 1, y: 0 }} 
-              transition={{ delay: i * 0.1, duration: 0.8 }} 
+              transition={{ delay: i * 0.08, duration: 0.8 }} 
               viewport={{ once: true }}
-              className="w-[calc(50%-12px)] sm:w-[calc(33.33%-16px)] md:w-[calc(25%-20px)] lg:w-[calc(20%-26px)] max-w-[210px] min-w-[170px] aspect-[3/4]"
+              className="w-full max-w-[210px] aspect-[3/4]"
             >
               <HologramCard member={member} onClick={() => setSelectedMember(member)} />
             </motion.div>
