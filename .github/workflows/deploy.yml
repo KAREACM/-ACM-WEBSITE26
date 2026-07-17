@@ -1,4 +1,4 @@
-name: Deploy to cPanel
+name: Build and Deploy
 
 on:
   push:
@@ -6,9 +6,11 @@ on:
       - main
 
 jobs:
-  web-deploy:
-    name: 🎉 Build & Deploy
+  build:
+    name: 🏗️ Build & Push to Deploy Branch
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
@@ -25,11 +27,9 @@ jobs:
     - name: 🏗️ Build Project
       run: npm run build
 
-    - name: 📦 Install sshpass
-      run: sudo apt-get install -y sshpass
-
-    - name: 🚀 Deploy to cPanel via SFTP
-      env:
-        SSHPASS: ${{ secrets.FTP_PASSWORD }}
-      run: |
-        sshpass -e scp -o StrictHostKeyChecking=no -r ./dist/* ${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:/home/${{ secrets.FTP_USERNAME }}/public_html/
+    - name: 🚀 Deploy to deploy branch
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        publish_branch: deploy
