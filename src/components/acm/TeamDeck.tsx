@@ -57,13 +57,10 @@ const seedDataIfEmpty = () => {
     { id: 'lens-lead', name: 'ARYAN KARACHI', role: 'Lens & Edit Lead', email: 'Aryanavenger77@gmail.com', contact: '', photo: '/assets/images/team/aryan_karachi.jpg', departmentId: 'dept-lens', level: 'lead', skills: ['Photography', 'Videography', 'DaVinci Resolve', 'Premiere Pro', 'Visual Editing'], contributions: 'Captures event moments, produces promotional teaser videos, and manages media archives.', bio: "Hi, I'm KARACHIARYAN, the Lens and Edit Lead. I oversee photography and editing, ensuring our content is creative, engaging, and professionally presented. Glad to be part of the team", linkedin: 'https://www.linkedin.com/in/aryan-karachi-2a6aa6308?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Aryan1v1z' },
 
     // 8. Content Department
-    { id: 'content-lead', name: 'Lois Lane', role: 'Content Writer Lead', email: 'lois@klu.ac.in', contact: '+91 98765 43227', photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80', departmentId: 'dept-content', level: 'lead', skills: ['Creative Writing', 'SEO Copywriting', 'Editorial Strategy'], contributions: 'Manages the chapter blog, writes newsletters, and curates script drafts for promotional videos.', bio: 'Lois reviews all written materials and leads content planning campaigns.' },
-    { id: 'content-member-1', name: 'Clark Kent', role: 'Content Member 1', email: 'clark@klu.ac.in', contact: '+91 98765 43228', photo: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Technical Blogging', 'Research', 'Academic Writing'], contributions: 'Researches and compiles informative deep-dives for ACM\'s monthly articles.', bio: 'Clark is a tech writer focusing on emerging AI models and security frameworks.' },
-    { id: 'content-member-2', name: 'Gali Charitha', role: 'Content Writer', email: 'galicharitha710@gmail.com', contact: '', photo: '/assets/images/team/gali_charitha.jpg', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Creative Writing', 'Blogging', 'Visual Communication'], contributions: 'Creates engaging content and drafts articles for ACM publications.', bio: "Hi, I'm Gali Charitha, a B.Tech 3rd year student. I enjoy writing and sharing ideas creatively. As a Content Writer in ACM, I look forward to creating engaging content and contributing to the team while improving my skills.", linkedin: 'https://www.linkedin.com/in/charitha-gali-b198a6345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', github: '' },
-    { id: 'content-member-3', name: 'Swethaa S D', role: 'Content Writer', email: 'sdswethaa@gmail.com', contact: '', photo: '/assets/images/team/swethaa_s_d.png', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Communication', 'Creative Writing', 'Community Building'], contributions: 'Creates and writes content highlighting ACM activities and sharing technical knowledge.', bio: "I'm Swethaa S D, a Content Writer at ACM. I enjoy writing, communication, and expressing ideas. Through this role, I aim to create and write content that highlights ACM's activities, shares knowledge, and fosters a stronger sense of community among members.", linkedin: 'https://www.linkedin.com/in/swethaa-s-d-513a51379/', github: 'https://github.com/sdswethaa-git' },
-    { id: 'content-member-4', name: 'Cat Grant', role: 'Content Member 4', email: 'cat@klu.ac.in', contact: '+91 98765 43231', photo: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&q=80', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Interviews', 'Scriptwriting', 'Podcast Curating'], contributions: 'Drafts dialogue scripts for video modules and interviews guest technical speakers.', bio: 'Cat specializes in scripting conversations and speaker outreach logs.' },
-    { id: 'content-member-5', name: 'Ron Troupe', role: 'Content Member 5', email: 'ron@klu.ac.in', contact: '+91 98765 43232', photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Newsletter Design', 'Substack Editing', 'Analytics'], contributions: 'Coordinates layout styling for ACM Newsletters and monitors subscriber engagement metrics.', bio: 'Ron designs newsletter mailings and monitors user subscriptions.' },
-
+  
+    { id: 'content-lead', name: 'Gali Charitha', role: 'Content Writer Lead', email: 'galicharitha710@gmail.com', contact: '', photo: '/assets/images/team/gali_charitha.jpg', departmentId: 'dept-content', level: 'lead', reportsTo: 'content-lead', skills: ['Content Writing', 'Creative Writing', 'Blogging', 'Visual Communication'], contributions: 'Creates engaging content and drafts articles for ACM publications.', bio: "Hi, I'm Gali Charitha, a B.Tech 3rd year student. I enjoy writing and sharing ideas creatively. As a Content Writer in ACM, I look forward to creating engaging content and contributing to the team while improving my skills.", linkedin: 'https://www.linkedin.com/in/charitha-gali-b198a6345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', github: '' },
+    { id: 'content-member-1', name: 'Swethaa S D', role: 'Content Writer', email: 'sdswethaa@gmail.com', contact: '', photo: '/assets/images/team/swethaa_s_d.png', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Communication', 'Creative Writing', 'Community Building'], contributions: 'Creates and writes content highlighting ACM activities and sharing technical knowledge.', bio: "I'm Swethaa S D, a Content Writer at ACM. I enjoy writing, communication, and expressing ideas. Through this role, I aim to create and write content that highlights ACM's activities, shares knowledge, and fosters a stronger sense of community among members.", linkedin: 'https://www.linkedin.com/in/swethaa-s-d-513a51379/', github: 'https://github.com/sdswethaa-git' },
+  
     // 9. Events Department
     { id: 'events-lead', name: 'BL Pavan sai markandeyulu', role: 'Overall Event Coordinator', email: 'pawank67m@gmail.com', contact: '', photo: '/assets/images/team/bl_pavan_sai_markandeyulu.jpg', departmentId: 'dept-events', level: 'lead', skills: ['Logistics', 'Event Coordination', 'Team Leadership', 'Resource Management'], contributions: 'Spearheads the logistics, permissions, and vendor coordination for all technical symposia.', bio: "Overall Event Coordinator at ACM, responsible for planning, organizing, and executing events. Coordinates teams, manages logistics, and ensures successful event delivery", linkedin: 'https://www.linkedin.com/in/pavan-sai-a9aab7324', github: 'https://github.com/Pawank67m' },
     { id: 'events-member-1', name: 'Amara Satya Gayatri Kumari', role: 'Event Coordinator', email: 'gayatriamara27@gmail.com', contact: '', photo: '/assets/images/team/amara_satya_gayatri_kumari.jpg', departmentId: 'dept-events', level: 'member', reportsTo: 'events-lead', skills: ['Event Planning', 'Team Coordination', 'Workshop Management', 'Logistics'], contributions: 'Coordinates workshops, technical sessions, and registrations for ACM initiatives.', bio: "Hello! I'm Gayathri, and I serve as the Event Coordinator of ACM. I am passionate about bringing people together through engaging events and activities. My role involves planning and coordinating workshops, technical sessions, and various ACM initiatives. I enjoy working with teams, learning new things, and creating opportunities for students to connect, grow, and enhance their skills.", linkedin: 'https://www.linkedin.com/in/amara-satya-gayatri-kumari-992748323', github: 'https://github.com/gayatriamara-tech' },
@@ -93,7 +90,7 @@ const seedDataIfEmpty = () => {
       });
 
       // 2. Synchronize details (like corrected photo paths) for existing default members
-      const updatedMembers = currentMembers.map((m: any) => {
+      let updatedMembers = currentMembers.map((m: any) => {
         const defaultMember = defaultMembers.find(dm => dm.id === m.id);
         if (defaultMember) {
           if (
@@ -103,7 +100,9 @@ const seedDataIfEmpty = () => {
             m.role !== defaultMember.role ||
             m.bio !== defaultMember.bio ||
             m.linkedin !== defaultMember.linkedin ||
-            m.github !== defaultMember.github
+            m.github !== defaultMember.github ||
+            m.level !== defaultMember.level ||
+            m.departmentId !== defaultMember.departmentId
           ) {
             m.name = defaultMember.name;
             m.role = defaultMember.role;
@@ -115,6 +114,8 @@ const seedDataIfEmpty = () => {
             m.bio = defaultMember.bio;
             m.linkedin = defaultMember.linkedin;
             m.github = defaultMember.github;
+            m.level = defaultMember.level;
+            m.departmentId = defaultMember.departmentId;
             if ('portfolio' in defaultMember) {
               m.portfolio = (defaultMember as any).portfolio;
             } else {
@@ -125,6 +126,19 @@ const seedDataIfEmpty = () => {
         }
         return m;
       });
+
+      // 3. Ensure Content Department only has Gali Charitha and Swethaa S D
+      const initialLength = updatedMembers.length;
+      updatedMembers = updatedMembers.filter((m: any) => {
+        if (m.departmentId === 'dept-content') {
+          return defaultMembers.some(dm => dm.id === m.id);
+        }
+        return true;
+      });
+      if (updatedMembers.length !== initialLength) {
+        updated = true;
+      }
+
       if (updated) {
         localStorage.setItem('acm_members', JSON.stringify(updatedMembers));
       }
@@ -858,7 +872,7 @@ export const TeamDeck = () => {
         {members.length > 0 && (
           <div className="flex flex-col items-center w-full">
             <h4 className="text-slate-500 font-mono text-[10px] font-bold uppercase tracking-[0.2em] mb-8">Team Syndicate</h4>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 justify-center w-full">
+            <div className="flex flex-wrap justify-center gap-6 w-full">
               {members.map((member, i) => (
                 <motion.div 
                   key={member.id} 
@@ -866,7 +880,7 @@ export const TeamDeck = () => {
                   whileInView={{ opacity: 1, y: 0 }} 
                   viewport={{ once: true, margin: "-100px" }}
                   transition={{ delay: (i % 5) * 0.1, duration: 0.8 }}
-                  className="w-full aspect-[3/4]"
+                  className="w-[calc(50%-12px)] sm:w-[calc(33.33%-16px)] md:w-[calc(25%-20px)] lg:w-[calc(20%-26px)] max-w-[210px] min-w-[170px] aspect-[3/4]"
                 >
                   <HologramCard member={member} onClick={() => setSelectedMember(member)} />
                 </motion.div>
