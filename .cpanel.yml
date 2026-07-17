@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/cp -R /home/karehostingacm/repositories/acm-website/* /home/karehostingacm/public_html/
