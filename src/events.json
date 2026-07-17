@@ -17,8 +17,8 @@
     "year": 2025,
     "venue": "Online",
     "images": [
-      "/events/agentic_workflow_and_generative_ai_1.jpeg",
-      "/events/agentic_workflow_and_generative_ai_2.jpeg"
+      "/assets/images/events/agentic_workflow_and_generative_ai_1.jpeg",
+      "/assets/images/events/agentic_workflow_and_generative_ai_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -42,8 +42,8 @@
     "year": 2024,
     "venue": "Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/hack_ai_thon_the_ai_hackathon_1.jpg",
-      "/events/hack_ai_thon_the_ai_hackathon_2.jpg"
+      "/assets/images/events/hack_ai_thon_the_ai_hackathon_1.jpg",
+      "/assets/images/events/hack_ai_thon_the_ai_hackathon_2.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -66,8 +66,8 @@
     "year": 2024,
     "venue": "Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/hour_of_code_the_coding_challenge_1.jpg",
-      "/events/hour_of_code_the_coding_challenge_2.jpg"
+      "/assets/images/events/hour_of_code_the_coding_challenge_1.jpg",
+      "/assets/images/events/hour_of_code_the_coding_challenge_2.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -91,7 +91,7 @@
     "year": 2024,
     "venue": "Online",
     "images": [
-      "/events/multilingual_conversational_ai_for_human_computer_interactio_1.jpeg"
+      "/assets/images/events/multilingual_conversational_ai_for_human_computer_interactio_1.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -115,10 +115,10 @@
     "year": 2025,
     "venue": "Admin Block Seminar Hall, Kalasalingam University",
     "images": [
-      "/events/data_science_and_gen_ai_use_case_in_e_commerce_1.jpeg",
-      "/events/data_science_and_gen_ai_use_case_in_e_commerce_2.jpeg",
-      "/events/data_science_and_gen_ai_use_case_in_e_commerce_3.jpeg",
-      "/events/data_science_and_gen_ai_use_case_in_e_commerce_4.jpeg"
+      "/assets/images/events/data_science_and_gen_ai_use_case_in_e_commerce_1.jpeg",
+      "/assets/images/events/data_science_and_gen_ai_use_case_in_e_commerce_2.jpeg",
+      "/assets/images/events/data_science_and_gen_ai_use_case_in_e_commerce_3.jpeg",
+      "/assets/images/events/data_science_and_gen_ai_use_case_in_e_commerce_4.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -142,7 +142,7 @@
     "year": 2024,
     "venue": "Rooms 8301 & 8301 'A', Kalasalingam University",
     "images": [
-      "/events/sql_knight_1.jpeg"
+      "/assets/images/events/sql_knight_1.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -165,8 +165,8 @@
     "year": null,
     "venue": "Online",
     "images": [
-      "/events/summer_boost_up_programme_1.jpeg",
-      "/events/summer_boost_up_programme_2.jpeg"
+      "/assets/images/events/summer_boost_up_programme_1.jpeg",
+      "/assets/images/events/summer_boost_up_programme_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -189,8 +189,8 @@
     "year": 2024,
     "venue": "Online (Unstop Platform)",
     "images": [
-      "/events/techquest_the_digital_odyssey_1.jpeg",
-      "/events/techquest_the_digital_odyssey_2.jpeg"
+      "/assets/images/events/techquest_the_digital_odyssey_1.jpeg",
+      "/assets/images/events/techquest_the_digital_odyssey_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -214,8 +214,8 @@
     "year": 2023,
     "venue": "Online",
     "images": [
-      "/events/introduction_to_vertex_ai_for_beginners_1.jpg",
-      "/events/introduction_to_vertex_ai_for_beginners_2.jpg"
+      "/assets/images/events/introduction_to_vertex_ai_for_beginners_1.jpg",
+      "/assets/images/events/introduction_to_vertex_ai_for_beginners_2.jpg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -238,8 +238,8 @@
     "year": 2024,
     "venue": "Online (Hackerrank)",
     "images": [
-      "/events/virtual_code_corner_2024_1.jpeg",
-      "/events/virtual_code_corner_2024_2.jpeg"
+      "/assets/images/events/virtual_code_corner_2024_1.jpeg",
+      "/assets/images/events/virtual_code_corner_2024_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -262,7 +262,7 @@
     "year": 2024,
     "venue": "Amrita Vishwa Vidyapeetham, Coimbatore",
     "images": [
-      "/events/acm_india_winter_school_data_structures_and_algorithms_for_s_1.jpeg"
+      "/assets/images/events/acm_india_winter_school_data_structures_and_algorithms_for_s_1.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -284,7 +284,7 @@
     "year": 2025,
     "venue": "TBD",
     "images": [
-      "/events/acm_india_chapter_awards_2024_1.jpg"
+      "/assets/images/events/acm_india_chapter_awards_2024_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -307,7 +307,7 @@
     "year": null,
     "venue": "Online",
     "images": [
-      "/events/code_sprint_100_100_days_of_coding_1.jpeg"
+      "/assets/images/events/code_sprint_100_100_days_of_coding_1.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -331,8 +331,8 @@
     "year": 2024,
     "venue": "Online (Google Meet)",
     "images": [
-      "/events/a_convergence_of_hardware_software_and_machine_learning_1.jpeg",
-      "/events/a_convergence_of_hardware_software_and_machine_learning_2.jpeg"
+      "/assets/images/events/a_convergence_of_hardware_software_and_machine_learning_1.jpeg",
+      "/assets/images/events/a_convergence_of_hardware_software_and_machine_learning_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -355,12 +355,12 @@
     "year": 2023,
     "venue": "TBD",
     "images": [
-      "/events/blast_blockchain_algorithm_for_secure_transaction_1.jpeg",
-      "/events/blast_blockchain_algorithm_for_secure_transaction_2.jpg",
-      "/events/blast_blockchain_algorithm_for_secure_transaction_3.jpg",
-      "/events/blast_blockchain_algorithm_for_secure_transaction_4.jpg",
-      "/events/blast_blockchain_algorithm_for_secure_transaction_5.jpg",
-      "/events/blast_blockchain_algorithm_for_secure_transaction_6.jpg"
+      "/assets/images/events/blast_blockchain_algorithm_for_secure_transaction_1.jpeg",
+      "/assets/images/events/blast_blockchain_algorithm_for_secure_transaction_2.jpg",
+      "/assets/images/events/blast_blockchain_algorithm_for_secure_transaction_3.jpg",
+      "/assets/images/events/blast_blockchain_algorithm_for_secure_transaction_4.jpg",
+      "/assets/images/events/blast_blockchain_algorithm_for_secure_transaction_5.jpg",
+      "/assets/images/events/blast_blockchain_algorithm_for_secure_transaction_6.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -384,8 +384,8 @@
     "year": 2024,
     "venue": "Online (Zoom)",
     "images": [
-      "/events/analytics_in_industry_1.jpeg",
-      "/events/analytics_in_industry_2.jpeg"
+      "/assets/images/events/analytics_in_industry_1.jpeg",
+      "/assets/images/events/analytics_in_industry_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -407,11 +407,11 @@
     "year": 2023,
     "venue": "TBD",
     "images": [
-      "/events/internet_of_everything_ioe_rise_of_the_machines_1.jpeg",
-      "/events/internet_of_everything_ioe_rise_of_the_machines_2.jpg",
-      "/events/internet_of_everything_ioe_rise_of_the_machines_3.jpg",
-      "/events/internet_of_everything_ioe_rise_of_the_machines_4.jpg",
-      "/events/internet_of_everything_ioe_rise_of_the_machines_5.jpg"
+      "/assets/images/events/internet_of_everything_ioe_rise_of_the_machines_1.jpeg",
+      "/assets/images/events/internet_of_everything_ioe_rise_of_the_machines_2.jpg",
+      "/assets/images/events/internet_of_everything_ioe_rise_of_the_machines_3.jpg",
+      "/assets/images/events/internet_of_everything_ioe_rise_of_the_machines_4.jpg",
+      "/assets/images/events/internet_of_everything_ioe_rise_of_the_machines_5.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -434,8 +434,8 @@
     "year": 2025,
     "venue": "Online",
     "images": [
-      "/events/fun_with_algorithms_1.jpeg",
-      "/events/fun_with_algorithms_2.jpeg"
+      "/assets/images/events/fun_with_algorithms_1.jpeg",
+      "/assets/images/events/fun_with_algorithms_2.jpeg"
     ],
     "mode": "online",
     "maxCapacity": null
@@ -459,13 +459,13 @@
     "year": 2024,
     "venue": "Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/hack_odyssey_2024_1.jpeg",
-      "/events/hack_odyssey_2024_2.jpeg",
-      "/events/hack_odyssey_2024_3.jpeg",
-      "/events/hack_odyssey_2024_4.jpeg",
-      "/events/hack_odyssey_2024_5.jpeg",
-      "/events/hack_odyssey_2024_6.jpeg",
-      "/events/hack_odyssey_2024_7.jpeg"
+      "/assets/images/events/hack_odyssey_2024_1.jpeg",
+      "/assets/images/events/hack_odyssey_2024_2.jpeg",
+      "/assets/images/events/hack_odyssey_2024_3.jpeg",
+      "/assets/images/events/hack_odyssey_2024_4.jpeg",
+      "/assets/images/events/hack_odyssey_2024_5.jpeg",
+      "/assets/images/events/hack_odyssey_2024_6.jpeg",
+      "/assets/images/events/hack_odyssey_2024_7.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -489,8 +489,8 @@
     "year": 2023,
     "venue": "Room 8601, Kalasalingam University",
     "images": [
-      "/events/hour_of_code_1.jpeg",
-      "/events/hour_of_code_2.jpeg"
+      "/assets/images/events/hour_of_code_1.jpeg",
+      "/assets/images/events/hour_of_code_2.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -513,12 +513,12 @@
     "year": 2024,
     "venue": "Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/idea_spark_1.jpeg",
-      "/events/idea_spark_2.jpeg",
-      "/events/idea_spark_3.png",
-      "/events/idea_spark_4.png",
-      "/events/idea_spark_5.png",
-      "/events/idea_spark_6.png"
+      "/assets/images/events/idea_spark_1.jpeg",
+      "/assets/images/events/idea_spark_2.jpeg",
+      "/assets/images/events/idea_spark_3.png",
+      "/assets/images/events/idea_spark_4.png",
+      "/assets/images/events/idea_spark_5.png",
+      "/assets/images/events/idea_spark_6.png"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -541,7 +541,7 @@
     "year": 2025,
     "venue": "1st Floor, IRC, Kalasalingam University",
     "images": [
-      "/events/acm_india_industry_day_poster_presentation_competition_1.jpg"
+      "/assets/images/events/acm_india_industry_day_poster_presentation_competition_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -564,8 +564,8 @@
     "year": 2024,
     "venue": "Admin Block Seminar Hall, Kalasalingam University",
     "images": [
-      "/events/ideas_to_innovation_a_complete_guide_on_patent_filing_and_pu_1.jpeg",
-      "/events/ideas_to_innovation_a_complete_guide_on_patent_filing_and_pu_2.jpeg"
+      "/assets/images/events/ideas_to_innovation_a_complete_guide_on_patent_filing_and_pu_1.jpeg",
+      "/assets/images/events/ideas_to_innovation_a_complete_guide_on_patent_filing_and_pu_2.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -587,9 +587,9 @@
     "year": 2024,
     "venue": "TBD",
     "images": [
-      "/events/college_ready_empowering_students_to_start_their_coding_jour_1.jpeg",
-      "/events/college_ready_empowering_students_to_start_their_coding_jour_2.jpeg",
-      "/events/college_ready_empowering_students_to_start_their_coding_jour_3.jpeg"
+      "/assets/images/events/college_ready_empowering_students_to_start_their_coding_jour_1.jpeg",
+      "/assets/images/events/college_ready_empowering_students_to_start_their_coding_jour_2.jpeg",
+      "/assets/images/events/college_ready_empowering_students_to_start_their_coding_jour_3.jpeg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -612,8 +612,8 @@
     "year": 2025,
     "venue": "Admin Block Seminar Hall, KARE, Srivilliputtur",
     "images": [
-      "/events/workshop_on_research_opportunities_in_computer_science_rocs_1.jpg",
-      "/events/workshop_on_research_opportunities_in_computer_science_rocs_2.jpg"
+      "/assets/images/events/workshop_on_research_opportunities_in_computer_science_rocs_1.jpg",
+      "/assets/images/events/workshop_on_research_opportunities_in_computer_science_rocs_2.jpg"
     ],
     "mode": "offline",
     "maxCapacity": null
@@ -637,9 +637,9 @@
     "year": 2025,
     "venue": "TIFAC CORE (CCF LAB), Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/hackare_3_0_1.jpg",
-      "/events/hackare_3_0_2.jpg",
-      "/events/hackare_3_0_3.jpg"
+      "/assets/images/events/hackare_3_0_1.jpg",
+      "/assets/images/events/hackare_3_0_2.jpg",
+      "/assets/images/events/hackare_3_0_3.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 0
@@ -663,8 +663,8 @@
     "year": 2025,
     "venue": "Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/disfrutar_2k25_1.jpg",
-      "/events/disfrutar_2k25_2.jpg"
+      "/assets/images/events/disfrutar_2k25_1.jpg",
+      "/assets/images/events/disfrutar_2k25_2.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 0
@@ -687,7 +687,7 @@
     "year": 2025,
     "venue": "Admin Block Seminar Hall (Round 1) & 8th Block Seminar Hall (Final Round), Kalasalingam University",
     "images": [
-      "/events/launch_pad_1.jpg"
+      "/assets/images/events/launch_pad_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 0
@@ -710,8 +710,8 @@
     "year": 2025,
     "venue": "Kalasalingam Academy of Research and Education (KARE), Madurai",
     "images": [
-      "/events/acm_india_summer_schools_2025_iot_and_next_generation_networ_1.jpg",
-      "/events/acm_india_summer_schools_2025_iot_and_next_generation_networ_2.jpg"
+      "/assets/images/events/acm_india_summer_schools_2025_iot_and_next_generation_networ_1.jpg",
+      "/assets/images/events/acm_india_summer_schools_2025_iot_and_next_generation_networ_2.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 0
@@ -737,9 +737,9 @@
     "year": 2025,
     "venue": "8301 LAB, Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/mernify_a_peer_session_on_full_stack_development_1.jpg",
-      "/events/mernify_a_peer_session_on_full_stack_development_2.jpg",
-      "/events/mernify_a_peer_session_on_full_stack_development_3.jpg"
+      "/assets/images/events/mernify_a_peer_session_on_full_stack_development_1.jpg",
+      "/assets/images/events/mernify_a_peer_session_on_full_stack_development_2.jpg",
+      "/assets/images/events/mernify_a_peer_session_on_full_stack_development_3.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 0
@@ -761,7 +761,7 @@
     "year": 2026,
     "venue": "TIFAC Core Cyber Security Lab, KARE",
     "images": [
-      "/events/open_source_contributions_a_beginners_guide_1.jpg"
+      "/assets/images/events/open_source_contributions_a_beginners_guide_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 80
@@ -783,7 +783,7 @@
     "year": 2026,
     "venue": "Computer Lab 1, Block A, KARE",
     "images": [
-      "/events/pair_programming_showdown_2026_1.jpg"
+      "/assets/images/events/pair_programming_showdown_2026_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 50
@@ -806,7 +806,7 @@
     "year": 2026,
     "venue": "Seminar Hall, CSE Dept, KARE",
     "images": [
-      "/events/ui_ux_design_sprint_challenge_1.jpg"
+      "/assets/images/events/ui_ux_design_sprint_challenge_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 40
@@ -829,7 +829,7 @@
     "year": 2026,
     "venue": "Main Auditorium, KARE",
     "images": [
-      "/events/codecraft_2026_full_stack_development_challenge_1.jpg"
+      "/assets/images/events/codecraft_2026_full_stack_development_challenge_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 60
@@ -852,7 +852,7 @@
     "year": 2026,
     "venue": "TIFAC CORE (CCF LAB), Kalasalingam Academy of Research and Education",
     "images": [
-      "/events/hacknova_2026_ai_and_innovation_hackathon_1.jpg"
+      "/assets/images/events/hacknova_2026_ai_and_innovation_hackathon_1.jpg"
     ],
     "mode": "offline",
     "maxCapacity": 100

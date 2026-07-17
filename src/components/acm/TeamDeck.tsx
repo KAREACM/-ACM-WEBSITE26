@@ -25,49 +25,49 @@ const seedDataIfEmpty = () => {
 
   const defaultMembers = [
     // 1. Executive Board
-    { id: 'chair', name: 'Shaik Thaha', role: 'Chair', email: 'shaikthaha2005@gmail.com', contact: '7893340788', photo: '/IMG_2458.jpg', departmentId: 'dept-core', level: 'executive', skills: ['Strategic Planning', 'Leadership', 'Public Relations'], contributions: 'Presides over all chapter events, coordinates between faculty and students, and sets the chapter\'s vision.', bio: 'Motivated Computer Science undergraduate with a strong foundation in Python, JavaScript, and web development, seeking a software engineering role to build scalable and secure applications. Passionate about solving real-world problems through technology, with hands-on experience in AI-driven and full-stack development, and eager to contribute in collaborative, fast-paced environments.', linkedin: 'www.linkedin.com/in/shaik-thaha-6b10b1290', github: 'https://github.com/thaha55577' },
-    { id: 'vice-chair', name: 'HARINI AEDULLA', role: 'Vice Chair', email: '99230040469@klu.ac.in', contact: '+91 98765 43211', photo: '/IMG_2622 (1) - AEDULLA HARINI 2023-CSE.JPG', departmentId: 'dept-core', level: 'executive', reportsTo: 'chair', skills: ['Event Management', 'Operations', 'Public Speaking'], contributions: 'Assisting the Chair in all tasks and managing the executive council\'s day-to-day operations.', bio: 'Harini manages internal operations and ensures smooth execution of all ACM KARE workshops.', linkedin: 'https://www.linkedin.com/in/hariniaedulla', github: 'https://github.com/aedullaharinireddy' },
+    { id: 'chair', name: 'Shaik Thaha', role: 'Chair', email: 'shaikthaha2005@gmail.com', contact: '7893340788', photo: '/assets/images/team/shaik_thaha.jpg', departmentId: 'dept-core', level: 'executive', skills: ['Strategic Planning', 'Leadership', 'Public Relations'], contributions: 'Presides over all chapter events, coordinates between faculty and students, and sets the chapter\'s vision.', bio: 'Motivated Computer Science undergraduate with a strong foundation in Python, JavaScript, and web development, seeking a software engineering role to build scalable and secure applications. Passionate about solving real-world problems through technology, with hands-on experience in AI-driven and full-stack development, and eager to contribute in collaborative, fast-paced environments.', linkedin: 'www.linkedin.com/in/shaik-thaha-6b10b1290', github: 'https://github.com/thaha55577' },
+    { id: 'vice-chair', name: 'HARINI AEDULLA', role: 'Vice Chair', email: '99230040469@klu.ac.in', contact: '+91 98765 43211', photo: '/assets/images/team/harini_aedulla.jpg', departmentId: 'dept-core', level: 'executive', reportsTo: 'chair', skills: ['Event Management', 'Operations', 'Public Speaking'], contributions: 'Assisting the Chair in all tasks and managing the executive council\'s day-to-day operations.', bio: 'Harini manages internal operations and ensures smooth execution of all ACM KARE workshops.', linkedin: 'https://www.linkedin.com/in/hariniaedulla', github: 'https://github.com/aedullaharinireddy' },
     { id: 'president', name: 'Marcus Brody', role: 'President', email: 'marcus@klu.ac.in', contact: '+91 98765 43212', photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80', departmentId: 'dept-core', level: 'executive', reportsTo: 'chair', skills: ['Project Coordination', 'Budgeting', 'Outreach'], contributions: 'Directs the project leads and ensures all department deliverables are met on schedule.', bio: 'Marcus oversees all project management teams and facilitates collaborative hackathons.' },
 
     // 2. Administration Department
-    { id: 'secretary', name: 'Gali Gargeya Mithra', role: 'Secretary', email: 'gargeyam18@gmail.com', contact: '', photo: '/IMG_20260408_094241 - Gargeya Mithra.jpg', departmentId: 'dept-admin', level: 'executive', skills: ['Software Development', 'Machine Learning', 'Problem Solving', 'Event Organization'], contributions: 'Organizes technical events, documents minutes, and coordinates external communications.', bio: "I'm Gargeya Mithra, currently serving as the Secretary of the ACM Student Chapter. I'm a Computer Science student passionate about software development, machine learning, and problem-solving. I enjoy organizing technical events, collaborating with teams, and creating opportunities for students to learn and grow. I'm excited to contribute to ACM and help build a strong tech community.", linkedin: 'https://www.linkedin.com/in/gargeya-mithra-6102273aa/?skipRedirect=true', github: 'https://github.com/gargeya18' },
-    { id: 'sec-member', name: 'Rishitha Tedlapalli', role: 'Secretary', email: 'tedlapallirishitha@gmail.com', contact: '', photo: '/WhatsApp Image 2026-05-25 at 15.23.41 - Rishitha Tedlapalli.jpeg', departmentId: 'dept-admin', level: 'executive', skills: ['Administration', 'Event Coordination', 'Record Keeping', 'Team Management'], contributions: 'Coordinates team activities, manages communications, maintains records, and organizes workshops.', bio: "As the Secretary of ACM, I ensure smooth coordination between all team members and activities. I manage communications, maintain records, and help organise events and workshops. My role is to keep everyone informed, aligned, and on track. I work behind the scenes to turn ideas into successful initiatives for our ACM community.", linkedin: 'https://www.linkedin.com/in/rishitha-tedlapalli-558480307/', github: 'https://github.com/Rishitha7272' },
+    { id: 'secretary', name: 'Gali Gargeya Mithra', role: 'Secretary', email: 'gargeyam18@gmail.com', contact: '', photo: '/assets/images/team/gali_gargeya_mithra.jpg', departmentId: 'dept-admin', level: 'executive', skills: ['Software Development', 'Machine Learning', 'Problem Solving', 'Event Organization'], contributions: 'Organizes technical events, documents minutes, and coordinates external communications.', bio: "I'm Gargeya Mithra, currently serving as the Secretary of the ACM Student Chapter. I'm a Computer Science student passionate about software development, machine learning, and problem-solving. I enjoy organizing technical events, collaborating with teams, and creating opportunities for students to learn and grow. I'm excited to contribute to ACM and help build a strong tech community.", linkedin: 'https://www.linkedin.com/in/gargeya-mithra-6102273aa/?skipRedirect=true', github: 'https://github.com/gargeya18' },
+    { id: 'sec-member', name: 'Rishitha Tedlapalli', role: 'Secretary', email: 'tedlapallirishitha@gmail.com', contact: '', photo: '/assets/images/team/rishitha_tedlapalli.jpg', departmentId: 'dept-admin', level: 'executive', skills: ['Administration', 'Event Coordination', 'Record Keeping', 'Team Management'], contributions: 'Coordinates team activities, manages communications, maintains records, and organizes workshops.', bio: "As the Secretary of ACM, I ensure smooth coordination between all team members and activities. I manage communications, maintain records, and help organise events and workshops. My role is to keep everyone informed, aligned, and on track. I work behind the scenes to turn ideas into successful initiatives for our ACM community.", linkedin: 'https://www.linkedin.com/in/rishitha-tedlapalli-558480307/', github: 'https://github.com/Rishitha7272' },
 
     // 3. Finance Department
-    { id: 'treasurer-1', name: 'Karli Tejasree', role: 'Treasurer', email: 'karlitejasree@gmail.com', contact: '', photo: '/IMG-20260525-WA0001 - Karli Tejasree.jpg', departmentId: 'dept-finance', level: 'executive', skills: ['Budgeting', 'Financial Management', 'Resource Allocation', 'Event Planning'], contributions: 'Manages the chapter\'s budget, funds technical workshops, hackathons, and guest speaker events.', bio: 'Hi everyone! I am thrilled to serve as the Treasurer of ACM Student Chapter . My focus is on managing our chapter’s budget effectively to fund high-impact tech workshops, hackathons, and guest speaker events. I look forward to keeping our organization financially healthy and maximizing value for all our members.', linkedin: 'https://www.linkedin.com/in/teju-karli-32593a402?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
-    { id: 'treasurer-2', name: 'Bijjam Laasya Reddy', role: 'Treasurer', email: 'laasyareddybijjam@gmail.com', contact: '', photo: '/IMG_20260624_093706~2 - Laasya Reddy Bijjam.jpg', departmentId: 'dept-finance', level: 'executive', skills: ['Financial Record Keeping', 'Excel', 'Budget Management', 'Resource Planning'], contributions: 'Responsible for managing finances, maintaining financial records, and supporting activities and events.', bio: 'Hi, I\'m Laasya Reddy, serving as the Treasurer of the ACM KARE Student Chapter. I am responsible for managing finances, maintaining financial records, and supporting the planning and execution of various ACM activities,events also ensuring the smooth functioning of the club and contributing to the growth of our ACM community.', linkedin: 'https://www.linkedin.com/in/laasya-reddy-bijjam-a32430370', github: 'https://github.com/LaasyareddyB' },
+    { id: 'treasurer-1', name: 'Karli Tejasree', role: 'Treasurer', email: 'karlitejasree@gmail.com', contact: '', photo: '/assets/images/team/karli_tejasree.jpg', departmentId: 'dept-finance', level: 'executive', skills: ['Budgeting', 'Financial Management', 'Resource Allocation', 'Event Planning'], contributions: 'Manages the chapter\'s budget, funds technical workshops, hackathons, and guest speaker events.', bio: 'Hi everyone! I am thrilled to serve as the Treasurer of ACM Student Chapter . My focus is on managing our chapter’s budget effectively to fund high-impact tech workshops, hackathons, and guest speaker events. I look forward to keeping our organization financially healthy and maximizing value for all our members.', linkedin: 'https://www.linkedin.com/in/teju-karli-32593a402?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
+    { id: 'treasurer-2', name: 'Bijjam Laasya Reddy', role: 'Treasurer', email: 'laasyareddybijjam@gmail.com', contact: '', photo: '/assets/images/team/bijjam_laasya_reddy.jpg', departmentId: 'dept-finance', level: 'executive', skills: ['Financial Record Keeping', 'Excel', 'Budget Management', 'Resource Planning'], contributions: 'Responsible for managing finances, maintaining financial records, and supporting activities and events.', bio: 'Hi, I\'m Laasya Reddy, serving as the Treasurer of the ACM KARE Student Chapter. I am responsible for managing finances, maintaining financial records, and supporting the planning and execution of various ACM activities,events also ensuring the smooth functioning of the club and contributing to the growth of our ACM community.', linkedin: 'https://www.linkedin.com/in/laasya-reddy-bijjam-a32430370', github: 'https://github.com/LaasyareddyB' },
 
     // 4. Membership Department
-    { id: 'membership-chair', name: 'Uyyuri.Bhanu Prasad', role: 'Membership Chair', email: 'uyyuribhanuprasad20@gmail.com', contact: '', photo: '/0W1A3503 - UYYURI BHANU PRASAD 2024-ECE.jpg', departmentId: 'dept-membership', level: 'executive', skills: ['Community Building', 'Outreach', 'Event Planning', 'Leadership'], contributions: 'Manages member recruitment, maintains the active student registry, and coordinates member benefits.', bio: "Hello, I am Bhanu Prasad, an Electronics and Communication Engineering student and the Membership Chair of the ACM Student Chapter. As Membership Chair, I focus on building a strong, collaborative community by encouraging student participation and creating opportunities for professional and technical growth.", linkedin: 'www.linkedin.com/in/uyyuri-bhanuprasad-39581832a', github: 'https://github.com/ubhanuprasad' },
+    { id: 'membership-chair', name: 'Uyyuri.Bhanu Prasad', role: 'Membership Chair', email: 'uyyuribhanuprasad20@gmail.com', contact: '', photo: '/assets/images/team/uyyuri_bhanu_prasad.jpg', departmentId: 'dept-membership', level: 'executive', skills: ['Community Building', 'Outreach', 'Event Planning', 'Leadership'], contributions: 'Manages member recruitment, maintains the active student registry, and coordinates member benefits.', bio: "Hello, I am Bhanu Prasad, an Electronics and Communication Engineering student and the Membership Chair of the ACM Student Chapter. As Membership Chair, I focus on building a strong, collaborative community by encouraging student participation and creating opportunities for professional and technical growth.", linkedin: 'www.linkedin.com/in/uyyuri-bhanuprasad-39581832a', github: 'https://github.com/ubhanuprasad' },
 
     // 5. Web & Technical Department
-    { id: 'web-master', name: 'P VENKATA SAI', role: 'Web Master', email: 'p.venkatasai07@gmail.com', contact: '', photo: '/VenkataSai - VENKATA SAI P.png', departmentId: 'dept-web', level: 'lead', skills: ['React', 'Node.js', 'Python', 'Full Stack', 'Cybersecurity'], contributions: 'Created and maintained the KARE ACM website, deployment pipelines, and custom portals.', bio: 'I am a 3rd-year B.Tech CSE (IoT & Cybersecurity) student at Kalasalingam University with a strong passion for Full Stack Development and AI-powered applications. As an active member of the ACM Student Chapter, I contribute to technical events, workshops, and collaborative learning initiatives. I have experience building web applications using React, Node.js, Python, and modern development tools.', linkedin: 'https://www.linkedin.com/in/ponaka-venkata-sai?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Venkatasai6789' },
-    { id: 'web-member-1', name: 'Pasunoori Sai Muralidhar Reddy', role: 'Web Developer', email: 'pasunoorisaimuralidharreddy@gmail.com', contact: '', photo: '/IMG_20260514_004920 - Pasunoori Sai Muralidhar Reddy.jpg', departmentId: 'dept-web', level: 'member', reportsTo: 'web-master', skills: ['React', 'TypeScript', 'TailwindCSS', 'Web Development'], contributions: 'Contributes to frontend technical projects and develops clean, responsive user interfaces.', bio: 'I am Muralidhar Reddy, a Web Developer in ACM. I have a strong interest in web development and enjoy building modern, responsive websites. Through ACM, I aim to contribute to technical projects, learn new technologies, and work with fellow members to create a positive impact in the student community.', linkedin: 'www.linkedin.com/in/muralidhar1380', github: 'https://github.com/pasunoorisaimuralidharreddy-commits' },
+    { id: 'web-master', name: 'P VENKATA SAI', role: 'Web Master', email: 'p.venkatasai07@gmail.com', contact: '', photo: '/assets/images/team/p_venkata_sai.png', departmentId: 'dept-web', level: 'lead', skills: ['React', 'Node.js', 'Python', 'Full Stack', 'Cybersecurity'], contributions: 'Created and maintained the KARE ACM website, deployment pipelines, and custom portals.', bio: 'I am a 3rd-year B.Tech CSE (IoT & Cybersecurity) student at Kalasalingam University with a strong passion for Full Stack Development and AI-powered applications. As an active member of the ACM Student Chapter, I contribute to technical events, workshops, and collaborative learning initiatives. I have experience building web applications using React, Node.js, Python, and modern development tools.', linkedin: 'https://www.linkedin.com/in/ponaka-venkata-sai?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Venkatasai6789' },
+    { id: 'web-member-1', name: 'Pasunoori Sai Muralidhar Reddy', role: 'Web Developer', email: 'pasunoorisaimuralidharreddy@gmail.com', contact: '', photo: '/assets/images/team/pasunoori_sai_muralidhar_reddy.jpg', departmentId: 'dept-web', level: 'member', reportsTo: 'web-master', skills: ['React', 'TypeScript', 'TailwindCSS', 'Web Development'], contributions: 'Contributes to frontend technical projects and develops clean, responsive user interfaces.', bio: 'I am Muralidhar Reddy, a Web Developer in ACM. I have a strong interest in web development and enjoy building modern, responsive websites. Through ACM, I aim to contribute to technical projects, learn new technologies, and work with fellow members to create a positive impact in the student community.', linkedin: 'www.linkedin.com/in/muralidhar1380', github: 'https://github.com/pasunoorisaimuralidharreddy-commits' },
     { id: 'web-member-2', name: 'Marla Singer', role: 'Technical Team Member 2', email: 'marla@klu.ac.in', contact: '+91 98765 43220', photo: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&q=80', departmentId: 'dept-web', level: 'member', reportsTo: 'web-master', skills: ['Node.js', 'Express', 'PostgreSQL', 'Docker'], contributions: 'Architected the backend database schema and API endpoints for student registration.', bio: 'Marla designs high-performance server logic and maintains relational databases.' },
     { id: 'web-member-3', name: 'Robert Paulson', role: 'Technical Team Member 3', email: 'robert@klu.ac.in', contact: '+91 98765 43221', photo: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&q=80', departmentId: 'dept-web', level: 'member', reportsTo: 'web-master', skills: ['CI/CD', 'AWS', 'Linux Shell', 'Vite'], contributions: 'Configured automated deployment workflows and optimized build systems for fast page loads.', bio: 'Robert focuses on build pipelines, cloud hosting setups, and continuous integration workflows.' },
 
     // 6. Graphics Department
-    { id: 'graphics-lead', name: 'B. Srujana Reddy', role: 'Graphics Lead', email: 'srujana10807@gmail.com', contact: '', photo: '/IMG_7080 2.jpg', departmentId: 'dept-graphics', level: 'lead', skills: ['Canva', 'Graphic Design', 'Visual Communication', 'Python', 'AI/ML'], contributions: 'Directed the design system and branding guidelines for all ACM event posters and assets.', bio: 'I am B. Srujana Reddy, a 3rd-year Computer Science and Engineering student and the Graphics Lead of the ACM Student Chapter. I design visual content and promotional creatives, and I am passionate about Python, Artificial Intelligence, Machine Learning, and graphic design.', linkedin: 'https://www.linkedin.com/in/srujana-reddy-91238a388?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/srujanareddy10807' },
-    { id: 'graphics-member-1', name: 'Vankiraju Thanu Sri Sai', role: 'Graphic Designer', email: 'thanusriraju2006@gmail.com', contact: '', photo: '/_MG_7054 - VANKIRAJU THANU SRI SAI 2024-CSE.JPG', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Visual Communication', 'Python Programming', 'Poster Design'], contributions: 'Contributes to designing posters, promotional content, social media creatives, and event banners for various technical and non-technical events.', bio: 'I am Vankiraju Thanu Sri Sai, a B.Tech student pursuing Computer Science and Engineering. I currently serve as a Graphic Designer in the ACM Student Chapter, where I contribute to designing posters, promotional content, social media creatives, and event banners for various technical and non-technical events.\nI am passionate about both technology and design, continuously learning and improving my skills in Python Programming, Graphic Design, and Visual Communication. Through ACM and my academic journey, I strive to combine creativity with technical knowledge to create impactful solutions and engaging designs.\nThrough my involvement in ACM, I aim to enhance both my technical and creative abilities while contributing effectively to projects, events, and the student community.', linkedin: 'https://www.linkedin.com/in/thanu-sri-sai-vankiraju-b070bb380?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/thanusriraju2006', portfolio: 'https://share.google/bBO2nsZSgeauNbpjl' },
-    { id: 'graphics-member-2', name: 'POLISETTI SUJITH SIVA SAI MANIKANTA', role: 'Graphic Designer', email: 'koushisuji143@gmail.com', contact: '', photo: '/ACM - POLISETTI SUJITH SIVA SAI MANIKANTA 2024-CSE.jpg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'], contributions: 'Creates and drafts creative event designs and visual assets for social media.', bio: 'I am Sujith, a passionate Graphic Designer and Third-year CSE student ,Turning ideas into impactful visuals. Focused on creativity, quality, and delivering designs that leave a lasting impression.', linkedin: 'https://linkedin.com/in/sujith-siva-sai-manikanta-polisetti-babb11385', github: 'https://github.com/Sujith-Polisetti' },
-    { id: 'graphics-member-3', name: 'SOUPARNIKA BAIJU', role: 'Graphic Designer', email: 'souparnikabaiju3318@gmail.com', contact: '', photo: '/IMG_3524 - souparnika baiju.jpeg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Poster Design', 'Visual Branding', 'Canva'], contributions: 'Creates engaging posters and visual content for events and workshops.', bio: 'My name is Souparnika Baiju , and my role in the club is Graphics Designer. I enjoy creating posters and visual content that make ideas more engaging and impactful. I look forward to contributing my creativity and working with the team.', linkedin: 'https://www.linkedin.com/in/souparnika-baiju-832b283b4', github: 'https://github.com/souparnika07' },
-    { id: 'graphics-member-4', name: 'Sri Vishvaja', role: 'Graphic Designer', email: 'srivishvaja@gmail.com', contact: '', photo: '/IMG20260304193346 - SRI VISHVAJA L P 2025-CSE.jpg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'], contributions: 'Creates and drafts creative event designs and visual assets for social media.', bio: 'I am Vishvaja, a Graphic Designer passionate about creating creative and impactful designs. As a member of ACM, I look forward to contributing to the club\'s visual identity, promoting events through engaging designs, and enhancing my skills through collaboration and learning.', linkedin: 'https://www.linkedin.com/in/sri-vishvaja-8818b3379?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/SriVishvaja' },
+    { id: 'graphics-lead', name: 'B. Srujana Reddy', role: 'Graphics Lead', email: 'srujana10807@gmail.com', contact: '', photo: '/assets/images/team/b_srujana_reddy.jpg', departmentId: 'dept-graphics', level: 'lead', skills: ['Canva', 'Graphic Design', 'Visual Communication', 'Python', 'AI/ML'], contributions: 'Directed the design system and branding guidelines for all ACM event posters and assets.', bio: 'I am B. Srujana Reddy, a 3rd-year Computer Science and Engineering student and the Graphics Lead of the ACM Student Chapter. I design visual content and promotional creatives, and I am passionate about Python, Artificial Intelligence, Machine Learning, and graphic design.', linkedin: 'https://www.linkedin.com/in/srujana-reddy-91238a388?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/srujanareddy10807' },
+    { id: 'graphics-member-1', name: 'Vankiraju Thanu Sri Sai', role: 'Graphic Designer', email: 'thanusriraju2006@gmail.com', contact: '', photo: '/assets/images/team/vankiraju_thanu_sri_sai.jpg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Visual Communication', 'Python Programming', 'Poster Design'], contributions: 'Contributes to designing posters, promotional content, social media creatives, and event banners for various technical and non-technical events.', bio: 'I am Vankiraju Thanu Sri Sai, a B.Tech student pursuing Computer Science and Engineering. I currently serve as a Graphic Designer in the ACM Student Chapter, where I contribute to designing posters, promotional content, social media creatives, and event banners for various technical and non-technical events.\nI am passionate about both technology and design, continuously learning and improving my skills in Python Programming, Graphic Design, and Visual Communication. Through ACM and my academic journey, I strive to combine creativity with technical knowledge to create impactful solutions and engaging designs.\nThrough my involvement in ACM, I aim to enhance both my technical and creative abilities while contributing effectively to projects, events, and the student community.', linkedin: 'https://www.linkedin.com/in/thanu-sri-sai-vankiraju-b070bb380?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/thanusriraju2006', portfolio: 'https://share.google/bBO2nsZSgeauNbpjl' },
+    { id: 'graphics-member-2', name: 'POLISETTI SUJITH SIVA SAI MANIKANTA', role: 'Graphic Designer', email: 'koushisuji143@gmail.com', contact: '', photo: '/assets/images/team/polisetti_sujith_siva_sai_manikanta.jpg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'], contributions: 'Creates and drafts creative event designs and visual assets for social media.', bio: 'I am Sujith, a passionate Graphic Designer and Third-year CSE student ,Turning ideas into impactful visuals. Focused on creativity, quality, and delivering designs that leave a lasting impression.', linkedin: 'https://linkedin.com/in/sujith-siva-sai-manikanta-polisetti-babb11385', github: 'https://github.com/Sujith-Polisetti' },
+    { id: 'graphics-member-3', name: 'SOUPARNIKA BAIJU', role: 'Graphic Designer', email: 'souparnikabaiju3318@gmail.com', contact: '', photo: '/assets/images/team/souparnika_baiju.jpg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Poster Design', 'Visual Branding', 'Canva'], contributions: 'Creates engaging posters and visual content for events and workshops.', bio: 'My name is Souparnika Baiju , and my role in the club is Graphics Designer. I enjoy creating posters and visual content that make ideas more engaging and impactful. I look forward to contributing my creativity and working with the team.', linkedin: 'https://www.linkedin.com/in/souparnika-baiju-832b283b4', github: 'https://github.com/souparnika07' },
+    { id: 'graphics-member-4', name: 'Sri Vishvaja', role: 'Graphic Designer', email: 'srivishvaja@gmail.com', contact: '', photo: '/assets/images/team/sri_vishvaja.jpg', departmentId: 'dept-graphics', level: 'member', reportsTo: 'graphics-lead', skills: ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'], contributions: 'Creates and drafts creative event designs and visual assets for social media.', bio: 'I am Vishvaja, a Graphic Designer passionate about creating creative and impactful designs. As a member of ACM, I look forward to contributing to the club\'s visual identity, promoting events through engaging designs, and enhancing my skills through collaboration and learning.', linkedin: 'https://www.linkedin.com/in/sri-vishvaja-8818b3379?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/SriVishvaja' },
 
     // 7. Lens & Edit Department
-    { id: 'lens-lead', name: 'ARYAN KARACHI', role: 'Lens & Edit Lead', email: 'Aryanavenger77@gmail.com', contact: '', photo: '/WhatsApp Image 2026-06-23 at 23.57.30.jpeg', departmentId: 'dept-lens', level: 'lead', skills: ['Photography', 'Videography', 'DaVinci Resolve', 'Premiere Pro', 'Visual Editing'], contributions: 'Captures event moments, produces promotional teaser videos, and manages media archives.', bio: "Hi, I'm KARACHIARYAN, the Lens and Edit Lead. I oversee photography and editing, ensuring our content is creative, engaging, and professionally presented. Glad to be part of the team", linkedin: 'https://www.linkedin.com/in/aryan-karachi-2a6aa6308?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Aryan1v1z' },
+    { id: 'lens-lead', name: 'ARYAN KARACHI', role: 'Lens & Edit Lead', email: 'Aryanavenger77@gmail.com', contact: '', photo: '/assets/images/team/aryan_karachi.jpg', departmentId: 'dept-lens', level: 'lead', skills: ['Photography', 'Videography', 'DaVinci Resolve', 'Premiere Pro', 'Visual Editing'], contributions: 'Captures event moments, produces promotional teaser videos, and manages media archives.', bio: "Hi, I'm KARACHIARYAN, the Lens and Edit Lead. I oversee photography and editing, ensuring our content is creative, engaging, and professionally presented. Glad to be part of the team", linkedin: 'https://www.linkedin.com/in/aryan-karachi-2a6aa6308?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Aryan1v1z' },
 
     // 8. Content Department
     { id: 'content-lead', name: 'Lois Lane', role: 'Content Writer Lead', email: 'lois@klu.ac.in', contact: '+91 98765 43227', photo: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80', departmentId: 'dept-content', level: 'lead', skills: ['Creative Writing', 'SEO Copywriting', 'Editorial Strategy'], contributions: 'Manages the chapter blog, writes newsletters, and curates script drafts for promotional videos.', bio: 'Lois reviews all written materials and leads content planning campaigns.' },
     { id: 'content-member-1', name: 'Clark Kent', role: 'Content Member 1', email: 'clark@klu.ac.in', contact: '+91 98765 43228', photo: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Technical Blogging', 'Research', 'Academic Writing'], contributions: 'Researches and compiles informative deep-dives for ACM\'s monthly articles.', bio: 'Clark is a tech writer focusing on emerging AI models and security frameworks.' },
-    { id: 'content-member-2', name: 'Gali Charitha', role: 'Content Writer', email: 'galicharitha710@gmail.com', contact: '', photo: '/IMG-20250101-WA0035 - GALI CHARITHA 2024-CSE.jpg', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Creative Writing', 'Blogging', 'Visual Communication'], contributions: 'Creates engaging content and drafts articles for ACM publications.', bio: "Hi, I'm Gali Charitha, a B.Tech 3rd year student. I enjoy writing and sharing ideas creatively. As a Content Writer in ACM, I look forward to creating engaging content and contributing to the team while improving my skills.", linkedin: 'https://www.linkedin.com/in/charitha-gali-b198a6345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', github: '' },
-    { id: 'content-member-3', name: 'Swethaa S D', role: 'Content Writer', email: 'sdswethaa@gmail.com', contact: '', photo: '/Photoo - SWETHAA S D 2025-CSE.png', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Communication', 'Creative Writing', 'Community Building'], contributions: 'Creates and writes content highlighting ACM activities and sharing technical knowledge.', bio: "I'm Swethaa S D, a Content Writer at ACM. I enjoy writing, communication, and expressing ideas. Through this role, I aim to create and write content that highlights ACM's activities, shares knowledge, and fosters a stronger sense of community among members.", linkedin: 'https://www.linkedin.com/in/swethaa-s-d-513a51379/', github: 'https://github.com/sdswethaa-git' },
+    { id: 'content-member-2', name: 'Gali Charitha', role: 'Content Writer', email: 'galicharitha710@gmail.com', contact: '', photo: '/assets/images/team/gali_charitha.jpg', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Creative Writing', 'Blogging', 'Visual Communication'], contributions: 'Creates engaging content and drafts articles for ACM publications.', bio: "Hi, I'm Gali Charitha, a B.Tech 3rd year student. I enjoy writing and sharing ideas creatively. As a Content Writer in ACM, I look forward to creating engaging content and contributing to the team while improving my skills.", linkedin: 'https://www.linkedin.com/in/charitha-gali-b198a6345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', github: '' },
+    { id: 'content-member-3', name: 'Swethaa S D', role: 'Content Writer', email: 'sdswethaa@gmail.com', contact: '', photo: '/assets/images/team/swethaa_s_d.png', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Content Writing', 'Communication', 'Creative Writing', 'Community Building'], contributions: 'Creates and writes content highlighting ACM activities and sharing technical knowledge.', bio: "I'm Swethaa S D, a Content Writer at ACM. I enjoy writing, communication, and expressing ideas. Through this role, I aim to create and write content that highlights ACM's activities, shares knowledge, and fosters a stronger sense of community among members.", linkedin: 'https://www.linkedin.com/in/swethaa-s-d-513a51379/', github: 'https://github.com/sdswethaa-git' },
     { id: 'content-member-4', name: 'Cat Grant', role: 'Content Member 4', email: 'cat@klu.ac.in', contact: '+91 98765 43231', photo: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=400&q=80', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Interviews', 'Scriptwriting', 'Podcast Curating'], contributions: 'Drafts dialogue scripts for video modules and interviews guest technical speakers.', bio: 'Cat specializes in scripting conversations and speaker outreach logs.' },
     { id: 'content-member-5', name: 'Ron Troupe', role: 'Content Member 5', email: 'ron@klu.ac.in', contact: '+91 98765 43232', photo: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80', departmentId: 'dept-content', level: 'member', reportsTo: 'content-lead', skills: ['Newsletter Design', 'Substack Editing', 'Analytics'], contributions: 'Coordinates layout styling for ACM Newsletters and monitors subscriber engagement metrics.', bio: 'Ron designs newsletter mailings and monitors user subscriptions.' },
 
     // 9. Events Department
-    { id: 'events-lead', name: 'BL Pavan sai markandeyulu', role: 'Overall Event Coordinator', email: 'pawank67m@gmail.com', contact: '', photo: '/WhatsApp Image 2026-06-24 at 00.17.48.jpeg', departmentId: 'dept-events', level: 'lead', skills: ['Logistics', 'Event Coordination', 'Team Leadership', 'Resource Management'], contributions: 'Spearheads the logistics, permissions, and vendor coordination for all technical symposia.', bio: "Overall Event Coordinator at ACM, responsible for planning, organizing, and executing events. Coordinates teams, manages logistics, and ensures successful event delivery", linkedin: 'https://www.linkedin.com/in/pavan-sai-a9aab7324', github: 'https://github.com/Pawank67m' },
-    { id: 'events-member-1', name: 'Amara Satya Gayatri Kumari', role: 'Event Coordinator', email: 'gayatriamara27@gmail.com', contact: '', photo: '/IMG_20260519_082902 - Gayathri Amara.jpg', departmentId: 'dept-events', level: 'member', reportsTo: 'events-lead', skills: ['Event Planning', 'Team Coordination', 'Workshop Management', 'Logistics'], contributions: 'Coordinates workshops, technical sessions, and registrations for ACM initiatives.', bio: "Hello! I'm Gayathri, and I serve as the Event Coordinator of ACM. I am passionate about bringing people together through engaging events and activities. My role involves planning and coordinating workshops, technical sessions, and various ACM initiatives. I enjoy working with teams, learning new things, and creating opportunities for students to connect, grow, and enhance their skills.", linkedin: 'https://www.linkedin.com/in/amara-satya-gayatri-kumari-992748323', github: 'https://github.com/gayatriamara-tech' },
-    { id: 'events-member-2', name: 'A Nanda Kishor Reddy', role: 'Event Coordinator', email: 'nandakishor1709@gmail.com', contact: '', photo: '/IMG_9495 - ATTUNURI NANDA KISHOR REDDY 2024-CSE.JPG', departmentId: 'dept-events', level: 'member', reportsTo: 'events-lead', skills: ['Event Coordination', 'Logistics Support', 'Team Collaboration', 'Audio/Visual Setup'], contributions: 'Assists in planning and coordinates logistics and setup for event venues.', bio: 'I am Nanda Kishor Reddy working in event coordinating team.', linkedin: 'https://www.linkedin.com/in/nanda-kishor-attunuri-b29aa4325?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Nandakishor-NKR' },
+    { id: 'events-lead', name: 'BL Pavan sai markandeyulu', role: 'Overall Event Coordinator', email: 'pawank67m@gmail.com', contact: '', photo: '/assets/images/team/bl_pavan_sai_markandeyulu.jpg', departmentId: 'dept-events', level: 'lead', skills: ['Logistics', 'Event Coordination', 'Team Leadership', 'Resource Management'], contributions: 'Spearheads the logistics, permissions, and vendor coordination for all technical symposia.', bio: "Overall Event Coordinator at ACM, responsible for planning, organizing, and executing events. Coordinates teams, manages logistics, and ensures successful event delivery", linkedin: 'https://www.linkedin.com/in/pavan-sai-a9aab7324', github: 'https://github.com/Pawank67m' },
+    { id: 'events-member-1', name: 'Amara Satya Gayatri Kumari', role: 'Event Coordinator', email: 'gayatriamara27@gmail.com', contact: '', photo: '/assets/images/team/amara_satya_gayatri_kumari.jpg', departmentId: 'dept-events', level: 'member', reportsTo: 'events-lead', skills: ['Event Planning', 'Team Coordination', 'Workshop Management', 'Logistics'], contributions: 'Coordinates workshops, technical sessions, and registrations for ACM initiatives.', bio: "Hello! I'm Gayathri, and I serve as the Event Coordinator of ACM. I am passionate about bringing people together through engaging events and activities. My role involves planning and coordinating workshops, technical sessions, and various ACM initiatives. I enjoy working with teams, learning new things, and creating opportunities for students to connect, grow, and enhance their skills.", linkedin: 'https://www.linkedin.com/in/amara-satya-gayatri-kumari-992748323', github: 'https://github.com/gayatriamara-tech' },
+    { id: 'events-member-2', name: 'A Nanda Kishor Reddy', role: 'Event Coordinator', email: 'nandakishor1709@gmail.com', contact: '', photo: '/assets/images/team/a_nanda_kishor_reddy.jpg', departmentId: 'dept-events', level: 'member', reportsTo: 'events-lead', skills: ['Event Coordination', 'Logistics Support', 'Team Collaboration', 'Audio/Visual Setup'], contributions: 'Assists in planning and coordinates logistics and setup for event venues.', bio: 'I am Nanda Kishor Reddy working in event coordinating team.', linkedin: 'https://www.linkedin.com/in/nanda-kishor-attunuri-b29aa4325?utm_source=share_via&utm_content=profile&utm_medium=member_android', github: 'https://github.com/Nandakishor-NKR' },
     { id: 'events-member-3', name: 'Tim Drake', role: 'Event Coordinator 3', email: 'tim@klu.ac.in', contact: '+91 98765 43236', photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80', departmentId: 'dept-events', level: 'member', reportsTo: 'events-lead', skills: ['Feedback Logging', 'Schedule Audits', 'Hospitality'], contributions: 'Maintains timeline agendas and coordinates travel/lodging schedules for visiting judges.', bio: 'Tim reviews feedback logs, hospitality arrangements, and event schedules.' }
   ];
 
@@ -82,260 +82,44 @@ const seedDataIfEmpty = () => {
       const parsedMembers = JSON.parse(storedMembers);
       let updated = false;
       let currentMembers = [...parsedMembers];
-      const vishvajaExists = parsedMembers.some((m: any) => m.id === 'graphics-member-4' || m.email === 'srivishvaja@gmail.com');
-      if (!vishvajaExists) {
-        currentMembers.push({
-          id: 'graphics-member-4',
-          name: 'Sri Vishvaja',
-          role: 'Graphic Designer',
-          email: 'srivishvaja@gmail.com',
-          contact: '',
-          photo: '/IMG20260304193346 - SRI VISHVAJA L P 2025-CSE.jpg',
-          departmentId: 'dept-graphics',
-          level: 'member',
-          reportsTo: 'graphics-lead',
-          skills: ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'],
-          contributions: 'Creates and drafts creative event designs and visual assets for social media.',
-          bio: 'I am Vishvaja, a Graphic Designer passionate about creating creative and impactful designs. As a member of ACM, I look forward to contributing to the club\'s visual identity, promoting events through engaging designs, and enhancing my skills through collaboration and learning.',
-          linkedin: 'https://www.linkedin.com/in/sri-vishvaja-8818b3379?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-          github: 'https://github.com/SriVishvaja'
-        });
-        updated = true;
-      }
+
+      // 1. Add any missing default members to localStorage database
+      defaultMembers.forEach((dm) => {
+        const exists = currentMembers.some((m: any) => m.id === dm.id);
+        if (!exists) {
+          currentMembers.push({ ...dm });
+          updated = true;
+        }
+      });
+
+      // 2. Synchronize details (like corrected photo paths) for existing default members
       const updatedMembers = currentMembers.map((m: any) => {
-        if (m.id === 'chair' && m.name !== 'Shaik Thaha') {
-          m.name = 'Shaik Thaha';
-          m.email = 'shaikthaha2005@gmail.com';
-          m.contact = '7893340788';
-          m.photo = '/IMG_2458.jpg';
-          m.bio = 'Motivated Computer Science undergraduate with a strong foundation in Python, JavaScript, and web development, seeking a software engineering role to build scalable and secure applications. Passionate about solving real-world problems through technology, with hands-on experience in AI-driven and full-stack development, and eager to contribute in collaborative, fast-paced environments.';
-          m.linkedin = 'www.linkedin.com/in/shaik-thaha-6b10b1290';
-          m.github = 'https://github.com/thaha55577';
-          updated = true;
-        }
-        if (m.id === 'vice-chair' && m.name !== 'HARINI AEDULLA') {
-          m.name = 'HARINI AEDULLA';
-          m.email = '99230040469@klu.ac.in';
-          m.photo = '/IMG_2622 (1) - AEDULLA HARINI 2023-CSE.JPG';
-          m.bio = 'Harini manages internal operations and ensures smooth execution of all ACM KARE workshops.';
-          m.linkedin = 'https://www.linkedin.com/in/hariniaedulla';
-          m.github = 'https://github.com/aedullaharinireddy';
-          updated = true;
-        }
-        if (m.id === 'secretary' && m.name !== 'Gali Gargeya Mithra') {
-          m.name = 'Gali Gargeya Mithra';
-          m.email = 'gargeyam18@gmail.com';
-          m.photo = '/IMG_20260408_094241 - Gargeya Mithra.jpg';
-          m.bio = "I'm Gargeya Mithra, currently serving as the Secretary of the ACM Student Chapter. I'm a Computer Science student passionate about software development, machine learning, and problem-solving. I enjoy organizing technical events, collaborating with teams, and creating opportunities for students to learn and grow. I'm excited to contribute to ACM and help build a strong tech community.";
-          m.linkedin = 'https://www.linkedin.com/in/gargeya-mithra-6102273aa/?skipRedirect=true';
-          m.github = 'https://github.com/gargeya18';
-          m.skills = ['Software Development', 'Machine Learning', 'Problem Solving', 'Event Organization'];
-          m.contributions = 'Organizes technical events, documents minutes, and coordinates external communications.';
-          updated = true;
-        }
-        if (m.id === 'sec-member' && m.name !== 'Rishitha Tedlapalli') {
-          m.name = 'Rishitha Tedlapalli';
-          m.role = 'Secretary';
-          m.email = 'tedlapallirishitha@gmail.com';
-          m.photo = '/WhatsApp Image 2026-05-25 at 15.23.41 - Rishitha Tedlapalli.jpeg';
-          m.bio = "As the Secretary of ACM, I ensure smooth coordination between all team members and activities. I manage communications, maintain records, and help organise events and workshops. My role is to keep everyone informed, aligned, and on track. I work behind the scenes to turn ideas into successful initiatives for our ACM community.";
-          m.linkedin = 'https://www.linkedin.com/in/rishitha-tedlapalli-558480307/';
-          m.github = 'https://github.com/Rishitha7272';
-          m.skills = ['Administration', 'Event Coordination', 'Record Keeping', 'Team Management'];
-          m.contributions = 'Coordinates team activities, manages communications, maintains records, and organizes workshops.';
-          m.level = 'executive';
-          m.reportsTo = undefined;
-          updated = true;
-        }
-        if (m.id === 'treasurer-1' && m.name !== 'Karli Tejasree') {
-          m.name = 'Karli Tejasree';
-          m.role = 'Treasurer';
-          m.email = 'karlitejasree@gmail.com';
-          m.photo = '/IMG-20260525-WA0001 - Karli Tejasree.jpg';
-          m.bio = 'Hi everyone! I am thrilled to serve as the Treasurer of ACM Student Chapter . My focus is on managing our chapter’s budget effectively to fund high-impact tech workshops, hackathons, and guest speaker events. I look forward to keeping our organization financially healthy and maximizing value for all our members.';
-          m.linkedin = 'https://www.linkedin.com/in/teju-karli-32593a402?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-          m.github = '';
-          m.skills = ['Budgeting', 'Financial Management', 'Resource Allocation', 'Event Planning'];
-          m.contributions = 'Manages the chapter\'s budget, funds technical workshops, hackathons, and guest speaker events.';
-          updated = true;
-        }
-        if (m.id === 'treasurer-2' && m.name !== 'Bijjam Laasya Reddy') {
-          m.name = 'Bijjam Laasya Reddy';
-          m.role = 'Treasurer';
-          m.email = 'laasyareddybijjam@gmail.com';
-          m.photo = '/IMG_20260624_093706~2 - Laasya Reddy Bijjam.jpg';
-          m.bio = 'Hi, I\'m Laasya Reddy, serving as the Treasurer of the ACM KARE Student Chapter. I am responsible for managing finances, maintaining financial records, and supporting the planning and execution of various ACM activities,events also ensuring the smooth functioning of the club and contributing to the growth of our ACM community.';
-          m.linkedin = 'https://www.linkedin.com/in/laasya-reddy-bijjam-a32430370';
-          m.github = 'https://github.com/LaasyareddyB';
-          m.skills = ['Financial Record Keeping', 'Excel', 'Budget Management', 'Resource Planning'];
-          m.contributions = 'Responsible for managing finances, maintaining financial records, and supporting activities and events.';
-          updated = true;
-        }
-        if (m.id === 'membership-chair' && m.name !== 'Uyyuri.Bhanu Prasad') {
-          m.name = 'Uyyuri.Bhanu Prasad';
-          m.email = 'uyyuribhanuprasad20@gmail.com';
-          m.photo = '/0W1A3503 - UYYURI BHANU PRASAD 2024-ECE.jpg';
-          m.bio = "Hello, I am Bhanu Prasad, an Electronics and Communication Engineering student and the Membership Chair of the ACM Student Chapter. As Membership Chair, I focus on building a strong, collaborative community by encouraging student participation and creating opportunities for professional and technical growth.";
-          m.linkedin = 'www.linkedin.com/in/uyyuri-bhanuprasad-39581832a';
-          m.github = 'https://github.com/ubhanuprasad';
-          m.skills = ['Community Building', 'Outreach', 'Event Planning', 'Leadership'];
-          m.contributions = 'Manages member recruitment, maintains the active student registry, and coordinates member benefits.';
-          updated = true;
-        }
-        if (m.id === 'web-master' && m.name !== 'P VENKATA SAI') {
-          m.name = 'P VENKATA SAI';
-          m.email = 'p.venkatasai07@gmail.com';
-          m.photo = '/VenkataSai - VENKATA SAI P.png';
-          m.bio = 'I am a 3rd-year B.Tech CSE (IoT & Cybersecurity) student at Kalasalingam University with a strong passion for Full Stack Development and AI-powered applications. As an active member of the ACM Student Chapter, I contribute to technical events, workshops, and collaborative learning initiatives. I have experience building web applications using React, Node.js, Python, and modern development tools.';
-          m.linkedin = 'https://www.linkedin.com/in/ponaka-venkata-sai?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-          m.github = 'https://github.com/Venkatasai6789';
-          m.skills = ['React', 'Node.js', 'Python', 'Full Stack', 'Cybersecurity'];
-          m.contributions = 'Created and maintained the KARE ACM website, deployment pipelines, and custom portals.';
-          updated = true;
-        }
-        if (m.id === 'graphics-lead' && m.name !== 'B. Srujana Reddy') {
-          m.name = 'B. Srujana Reddy';
-          m.email = 'srujana10807@gmail.com';
-          m.photo = '/IMG_7080 2.jpg';
-          m.bio = 'I am B. Srujana Reddy, a 3rd-year Computer Science and Engineering student and the Graphics Lead of the ACM Student Chapter. I design visual content and promotional creatives, and I am passionate about Python, Artificial Intelligence, Machine Learning, and graphic design.';
-          m.linkedin = 'https://www.linkedin.com/in/srujana-reddy-91238a388?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-          m.github = 'https://github.com/srujanareddy10807';
-          m.skills = ['Canva', 'Graphic Design', 'Visual Communication', 'Python', 'AI/ML'];
-          m.contributions = 'Directed the design system and branding guidelines for all ACM event posters and assets.';
-          updated = true;
-        }
-        if (m.id === 'lens-lead' && m.name !== 'ARYAN KARACHI') {
-          m.name = 'ARYAN KARACHI';
-          m.email = 'Aryanavenger77@gmail.com';
-          m.photo = '/WhatsApp Image 2026-06-23 at 23.57.30.jpeg';
-          m.bio = "Hi, I'm KARACHIARYAN, the Lens and Edit Lead. I oversee photography and editing, ensuring our content is creative, engaging, and professionally presented. Glad to be part of the team";
-          m.linkedin = 'https://www.linkedin.com/in/aryan-karachi-2a6aa6308?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-          m.github = 'https://github.com/Aryan1v1z';
-          m.skills = ['Photography', 'Videography', 'DaVinci Resolve', 'Premiere Pro', 'Visual Editing'];
-          m.contributions = 'Captures event moments, produces promotional teaser videos, and manages media archives.';
-          updated = true;
-        }
-        if (m.id === 'content-member-2' && m.name !== 'Gali Charitha') {
-          m.name = 'Gali Charitha';
-          m.role = 'Content Writer';
-          m.email = 'galicharitha710@gmail.com';
-          m.photo = '/IMG-20250101-WA0035 - GALI CHARITHA 2024-CSE.jpg';
-          m.bio = "Hi, I'm Gali Charitha, a B.Tech 3rd year student. I enjoy writing and sharing ideas creatively. As a Content Writer in ACM, I look forward to creating engaging content and contributing to the team while improving my skills.";
-          m.linkedin = 'https://www.linkedin.com/in/charitha-gali-b198a6345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app';
-          m.github = '';
-          m.skills = ['Content Writing', 'Creative Writing', 'Blogging', 'Visual Communication'];
-          m.contributions = 'Creates engaging content and drafts articles for ACM publications.';
-          updated = true;
-        }
-        if (m.id === 'content-member-3' && m.name !== 'Swethaa S D') {
-          m.name = 'Swethaa S D';
-          m.role = 'Content Writer';
-          m.email = 'sdswethaa@gmail.com';
-          m.photo = '/Photoo - SWETHAA S D 2025-CSE.png';
-          m.bio = "I'm Swethaa S D, a Content Writer at ACM. I enjoy writing, communication, and expressing ideas. Through this role, I aim to create and write content that highlights ACM's activities, shares knowledge, and fosters a stronger sense of community among members.";
-          m.linkedin = 'https://www.linkedin.com/in/swethaa-s-d-513a51379/';
-          m.github = 'https://github.com/sdswethaa-git';
-          m.skills = ['Content Writing', 'Communication', 'Creative Writing', 'Community Building'];
-          m.contributions = 'Creates and writes content highlighting ACM activities and sharing technical knowledge.';
-          updated = true;
-        }
-        if (m.id === 'events-lead' && (m.name !== 'BL Pavan sai markandeyulu' || m.photo !== '/WhatsApp Image 2026-06-24 at 00.17.48.jpeg')) {
-          m.name = 'BL Pavan sai markandeyulu';
-          m.role = 'Overall Event Coordinator';
-          m.email = 'pawank67m@gmail.com';
-          m.photo = '/WhatsApp Image 2026-06-24 at 00.17.48.jpeg';
-          m.bio = "Overall Event Coordinator at ACM, responsible for planning, organizing, and executing events. Coordinates teams, manages logistics, and ensures successful event delivery";
-          m.linkedin = 'https://www.linkedin.com/in/pavan-sai-a9aab7324';
-          m.github = 'https://github.com/Pawank67m';
-          m.skills = ['Logistics', 'Event Coordination', 'Team Leadership', 'Resource Management'];
-          m.contributions = 'Spearheads the logistics, permissions, and vendor coordination for all technical symposia.';
-          updated = true;
-        }
-        if (m.id === 'events-member-1' && m.name !== 'Amara Satya Gayatri Kumari') {
-          m.name = 'Amara Satya Gayatri Kumari';
-          m.role = 'Event Coordinator';
-          m.email = 'gayatriamara27@gmail.com';
-          m.photo = '/IMG_20260519_082902 - Gayathri Amara.jpg';
-          m.bio = "Hello! I'm Gayathri, and I serve as the Event Coordinator of ACM. I am passionate about bringing people together through engaging events and activities. My role involves planning and coordinating workshops, technical sessions, and various ACM initiatives. I enjoy working with teams, learning new things, and creating opportunities for students to connect, grow, and enhance their skills.";
-          m.linkedin = 'https://www.linkedin.com/in/amara-satya-gayatri-kumari-992748323';
-          m.github = 'https://github.com/gayatriamara-tech';
-          m.skills = ['Event Planning', 'Team Coordination', 'Workshop Management', 'Logistics'];
-          m.contributions = 'Coordinates workshops, technical sessions, and registrations for ACM initiatives.';
-          updated = true;
-        }
-        if (m.id === 'events-member-2' && m.name !== 'A Nanda Kishor Reddy') {
-          m.name = 'A Nanda Kishor Reddy';
-          m.role = 'Event Coordinator';
-          m.email = 'nandakishor1709@gmail.com';
-          m.photo = '/IMG_9495 - ATTUNURI NANDA KISHOR REDDY 2024-CSE.JPG';
-          m.bio = 'I am Nanda Kishor Reddy working in event coordinating team.';
-          m.linkedin = 'https://www.linkedin.com/in/nanda-kishor-attunuri-b29aa4325?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-          m.github = 'https://github.com/Nandakishor-NKR';
-          m.skills = ['Event Coordination', 'Logistics Support', 'Team Collaboration', 'Audio/Visual Setup'];
-          m.contributions = 'Assists in planning and coordinates logistics and setup for event venues.';
-          updated = true;
-        }
-        if (m.id === 'web-member-1' && m.name !== 'Pasunoori Sai Muralidhar Reddy') {
-          m.name = 'Pasunoori Sai Muralidhar Reddy';
-          m.role = 'Web Developer';
-          m.email = 'pasunoorisaimuralidharreddy@gmail.com';
-          m.photo = '/IMG_20260514_004920 - Pasunoori Sai Muralidhar Reddy.jpg';
-          m.bio = 'I am Muralidhar Reddy, a Web Developer in ACM. I have a strong interest in web development and enjoy building modern, responsive websites. Through ACM, I aim to contribute to technical projects, learn new technologies, and work with fellow members to create a positive impact in the student community.';
-          m.linkedin = 'www.linkedin.com/in/muralidhar1380';
-          m.github = 'https://github.com/pasunoorisaimuralidharreddy-commits';
-          m.skills = ['React', 'TypeScript', 'TailwindCSS', 'Web Development'];
-          m.contributions = 'Contributes to frontend technical projects and develops clean, responsive user interfaces.';
-          updated = true;
-        }
-        if (m.id === 'graphics-member-1' && m.name !== 'Vankiraju Thanu Sri Sai') {
-          m.name = 'Vankiraju Thanu Sri Sai';
-          m.role = 'Graphic Designer';
-          m.email = 'thanusriraju2006@gmail.com';
-          m.photo = '/_MG_7054 - VANKIRAJU THANU SRI SAI 2024-CSE.JPG';
-          m.bio = 'I am Vankiraju Thanu Sri Sai, a B.Tech student pursuing Computer Science and Engineering. I currently serve as a Graphic Designer in the ACM Student Chapter, where I contribute to designing posters, promotional content, social media creatives, and event banners for various technical and non-technical events.\nI am passionate about both technology and design, continuously learning and improving my skills in Python Programming, Graphic Design, and Visual Communication. Through ACM and my academic journey, I strive to combine creativity with technical knowledge to create impactful solutions and engaging designs.\nThrough my involvement in ACM, I aim to enhance both my technical and creative abilities while contributing effectively to projects, events, and the student community.';
-          m.linkedin = 'https://www.linkedin.com/in/thanu-sri-sai-vankiraju-b070bb380?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-          m.github = 'https://github.com/thanusriraju2006';
-          m.portfolio = 'https://share.google/bBO2nsZSgeauNbpjl';
-          m.skills = ['Graphic Design', 'Visual Communication', 'Python Programming', 'Poster Design'];
-          m.contributions = 'Contributes to designing posters, promotional content, social media creatives, and event banners for various technical and non-technical events.';
-          updated = true;
-        }
-        if (m.id === 'graphics-member-2' && m.name !== 'POLISETTI SUJITH SIVA SAI MANIKANTA') {
-          m.name = 'POLISETTI SUJITH SIVA SAI MANIKANTA';
-          m.role = 'Graphic Designer';
-          m.email = 'koushisuji143@gmail.com';
-          m.photo = '/ACM - POLISETTI SUJITH SIVA SAI MANIKANTA 2024-CSE.jpg';
-          m.bio = 'I am Sujith, a passionate Graphic Designer and Third-year CSE student ,Turning ideas into impactful visuals. Focused on creativity, quality, and delivering designs that leave a lasting impression.';
-          m.linkedin = 'https://linkedin.com/in/sujith-siva-sai-manikanta-polisetti-babb11385';
-          m.github = 'https://github.com/Sujith-Polisetti';
-          m.skills = ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'];
-          m.contributions = 'Creates and drafts creative event designs and visual assets for social media.';
-          updated = true;
-        }
-        if (m.id === 'graphics-member-3' && m.name !== 'SOUPARNIKA BAIJU') {
-          m.name = 'SOUPARNIKA BAIJU';
-          m.role = 'Graphic Designer';
-          m.email = 'souparnikabaiju3318@gmail.com';
-          m.photo = '/IMG_3524 - souparnika baiju.jpeg';
-          m.bio = 'My name is Souparnika Baiju , and my role in the club is Graphics Designer. I enjoy creating posters and visual content that make ideas more engaging and impactful. I look forward to contributing my creativity and working with the team.';
-          m.linkedin = 'https://www.linkedin.com/in/souparnika-baiju-832b283b4';
-          m.github = 'https://github.com/souparnika07';
-          m.skills = ['Graphic Design', 'Poster Design', 'Visual Branding', 'Canva'];
-          m.contributions = 'Creates engaging posters and visual content for events and workshops.';
-          updated = true;
-        }
-        if (m.id === 'graphics-member-4' || m.email === 'srivishvaja@gmail.com') {
-          if (m.name !== 'Sri Vishvaja' || m.photo !== '/IMG20260304193346 - SRI VISHVAJA L P 2025-CSE.jpg') {
-            m.id = 'graphics-member-4';
-            m.name = 'Sri Vishvaja';
-            m.role = 'Graphic Designer';
-            m.email = 'srivishvaja@gmail.com';
-            m.photo = '/IMG20260304193346 - SRI VISHVAJA L P 2025-CSE.jpg';
-            m.bio = 'I am Vishvaja, a Graphic Designer passionate about creating creative and impactful designs. As a member of ACM, I look forward to contributing to the club\'s visual identity, promoting events through engaging designs, and enhancing my skills through collaboration and learning.';
-            m.linkedin = 'https://www.linkedin.com/in/sri-vishvaja-8818b3379?utm_source=share_via&utm_content=profile&utm_medium=member_android';
-            m.github = 'https://github.com/SriVishvaja';
-            m.skills = ['Graphic Design', 'Visual Arts', 'Canva', 'Creative Design'];
-            m.contributions = 'Creates and drafts creative event designs and visual assets for social media.';
+        const defaultMember = defaultMembers.find(dm => dm.id === m.id);
+        if (defaultMember) {
+          if (
+            m.name !== defaultMember.name ||
+            m.photo !== defaultMember.photo ||
+            m.email !== defaultMember.email ||
+            m.role !== defaultMember.role ||
+            m.bio !== defaultMember.bio ||
+            m.linkedin !== defaultMember.linkedin ||
+            m.github !== defaultMember.github
+          ) {
+            m.name = defaultMember.name;
+            m.role = defaultMember.role;
+            m.email = defaultMember.email;
+            m.contact = defaultMember.contact;
+            m.photo = defaultMember.photo;
+            m.skills = defaultMember.skills;
+            m.contributions = defaultMember.contributions;
+            m.bio = defaultMember.bio;
+            m.linkedin = defaultMember.linkedin;
+            m.github = defaultMember.github;
+            if ('portfolio' in defaultMember) {
+              m.portfolio = (defaultMember as any).portfolio;
+            } else {
+              delete m.portfolio;
+            }
             updated = true;
           }
         }
@@ -350,13 +134,81 @@ const seedDataIfEmpty = () => {
   }
 };
 
-const mockFaculty = [
-  { id: 'f1', name: 'Dr. Faculty Sponsor 1', role: 'Faculty Sponsor', image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80' },
-  { id: 'f2', name: 'Dr. Faculty Co-Sponsor 2', role: 'Co-Sponsor', image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80' },
-  { id: 'f3', name: 'Dr. Faculty Advisor 3', role: 'Advisor', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80' },
-  { id: 'f4', name: 'Dr. Faculty Advisor 4', role: 'Advisor', image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&q=80' },
-  { id: 'f5', name: 'Dr. Faculty Advisor 5', role: 'Advisor', image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80' },
+const facultyCoordinators = [
+  {
+    id: 'fc-chinnasamy',
+    name: 'Dr. P. Chinnasamy',
+    role: 'Associate Professor & Research Supervisor',
+    image: '/assets/images/faculty/dr_p_chinnasamy.jpg',
+    specializations: ['Cloud Security', 'Cryptography', 'Blockchain', 'Access Control'],
+    bio: 'Anna University Research Supervisor with Ph.D. in CSE. Expert in cloud computing security with 19 SCIE publications, 15 patents, and supervises 6 PhD scholars. Co-PI on international project with UTAR Malaysia.',
+    stats: { publications: '19', patents: '15', phdScholars: '6' },
+    linkedin: 'https://www.linkedin.com/in/dr-p-chinnasamy-52674b3b',
+    profileLink: 'https://chinnaswamyy.netlify.app/',
+    email: 'chinnasamyponnusamy@gmail.com',
+  },
+  {
+    id: 'fc-reshini',
+    name: 'Ms. S. Reshini',
+    role: 'Assistant Professor & AI Researcher',
+    image: '/assets/images/faculty/ms_reshini.jpg',
+    specializations: ['Machine Learning', 'Data Analytics', 'Emergency Vehicle Detection', 'NLP'],
+    bio: 'AI researcher with 5 years of industry experience at KGISL and 2+ years in academia. Research focuses on emergency vehicle detection using YOLOv9 & R-CNN, and data analytics for E-commerce.',
+    stats: { publications: '3', yearsTeaching: '2+', yearsIndustry: '5' },
+    linkedin: 'https://www.linkedin.com/in/reshni-suresh-5b94061b',
+    profileLink: 'https://sreshinii.netlify.app/',
+    email: 's.reshini@klu.ac.in',
+  },
+  {
+    id: 'fc-nagarajan',
+    name: 'Dr. Nagarajan M.K.',
+    role: 'Associate Professor & CS Research Expert',
+    image: '/assets/images/faculty/dr_nagarajan.jpg',
+    specializations: ['Wireless Sensor Networks', 'Cloud Computing', 'Network Security', 'IoT'],
+    bio: 'Ph.D. from Anna University (2024) with 15+ years of academic excellence. Expert in energy-efficient routing, swarm intelligence algorithms. Holds 3 patents including Robotic Surgery Machine.',
+    stats: { publications: '15+', patents: '3', experience: '15+' },
+    linkedin: '#',
+    profileLink: 'https://nagarajann.netlify.app/',
+    email: 'nagarajan45@gmail.com',
+  },
+  {
+    id: 'fc-marimuthu',
+    name: 'Dr. Marimuthu',
+    role: 'Assistant Professor & Researcher in Computer Science',
+    image: '/assets/images/faculty/dr_marimuthu.jpg',
+    specializations: ['Bio-computational Models', 'Machine Learning', 'Healthcare AI', 'Deep Learning'],
+    bio: 'MCA Gold Medalist with 16+ years teaching experience. ISRO project trainee. Ph.D. in bio-computational models for dengue gene analysis. UGC Minor Research Project recipient (₹1.6L).',
+    stats: { publications: '21', experience: '16+', students: '500+' },
+    linkedin: '#',
+    profileLink: 'https://marimuthuu.netlify.app/',
+    email: 'marimuthu@klu.ac.in',
+  },
+  {
+    id: 'fc-surendiran',
+    name: 'D. Surendiran Muthukumar',
+    role: 'Assistant Professor & PhD Research Scholar',
+    image: '/assets/images/faculty/d_surendiran_muthukumar.jpg',
+    specializations: ['Algorithm Intelligence', 'Robotics', 'Federated Learning', 'Autonomous Vehicles'],
+    bio: 'Pursuing PhD at KARE with focus on federated learning in healthcare. Developed autonomous surface vehicles & underwater bio-mimics robots for NSTL & IIT Indore. 4 Scopus publications.',
+    stats: { publications: '4', fundedProjects: '2', conferences: '3' },
+    linkedin: '#',
+    profileLink: 'https://surendirann.netlify.app/',
+    email: 'd.surendiran@klu.ac.in',
+  },
+  {
+    id: 'fc-gurusigaamani',
+    name: 'Dr. Gurusigaamani',
+    role: 'Assistant Professor & AI Research Expert',
+    image: '/assets/images/faculty/dr_gurusigaamani.jpg',
+    specializations: ['Machine Learning', 'Deep Learning', 'Healthcare AI', 'IoT Security'],
+    bio: "10+ years in CS education. Pursuing PhD in CSE. Supervised 260+ students, organized Techathon'25 hackathon & multiple ACM events. Published in IEEE, authored 2 books on IoT/Big Data and AI in Cloud.",
+    stats: { publications: '6+', students: '260+', experience: '10+' },
+    linkedin: '#',
+    profileLink: 'https://gurusigaamani.netlify.app/',
+    email: 'gurusigaamani@klu.ac.in',
+  }
 ];
+
 
 const HologramCard = ({ member, onClick }: { member: any, onClick?: () => void }) => {
   const ref = useRef<HTMLDivElement>(null);
@@ -476,7 +328,7 @@ const CinematicOverlay = ({ members, onComplete }: { members: any[], onComplete:
              transition={{ duration: phase === 'zooming' ? 1.5 : 0.4, ease: "easeInOut" }}
              className="relative w-64 h-64 flex flex-col items-center justify-center cursor-pointer group"
            >
-              <img src="/ACM_LOGO.png" alt="ACM KARE" className="w-full h-full object-contain relative z-10" />
+              <img src="/assets/images/logo/acm_logo.png" alt="ACM KARE" className="w-full h-full object-contain relative z-10" />
               {hovered && phase === 'lock' && (
                 <motion.span initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="absolute -bottom-12 text-cyan-400 font-mono text-xs tracking-widest animate-pulse whitespace-nowrap">
                   Hold or Click to Unlock
@@ -496,7 +348,7 @@ const CinematicOverlay = ({ members, onComplete }: { members: any[], onComplete:
            <motion.div key="faculty" initial={{ opacity: 0, scale: 0.8, y: 50 }} animate={{ opacity: 1, scale: 1, y: 0 }} exit={{ opacity: 0, scale: 1.2, filter: 'blur(10px)' }} transition={{ duration: 1, ease: "easeOut" }} className="absolute z-10 flex flex-col items-center pointer-events-none">
               <span className="text-cyan-400 font-mono tracking-[0.5em] text-xs md:text-sm uppercase mb-8 animate-pulse text-center">Faculty Coordinator</span>
               <div className="w-72 md:w-80 aspect-[3/4] pointer-events-auto">
-                <HologramCard member={mockFaculty[0]} />
+                <HologramCard member={facultyCoordinators[0]} />
               </div>
            </motion.div>
         )}
@@ -696,7 +548,7 @@ export const TeamDeck = () => {
     const memberId = params.get('member');
     if (memberId && !selectedMember) {
       const storedMembers = JSON.parse(localStorage.getItem('acm_members') || '[]');
-      const found = mockFaculty.find(m => m.id === memberId) || storedMembers.find((m: any) => m.id === memberId);
+      const found = facultyCoordinators.find(m => m.id === memberId) || storedMembers.find((m: any) => m.id === memberId);
       if (found) {
         setSelectedMember(found);
         setIntroPlayed(true);
@@ -990,9 +842,16 @@ export const TeamDeck = () => {
           Faculty Advisors
           <span className="w-12 h-[2px] bg-cyan-500/50 shadow-[0_0_10px_rgba(6,182,212,0.8)] acm-team-border-active"></span>
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-6xl mx-auto font-bold">
-          {mockFaculty.map((member, i) => (
-            <motion.div key={member.id} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.1, duration: 0.8 }} viewport={{ once: true }}>
+        <div className="flex flex-wrap justify-center gap-6 md:gap-8 max-w-6xl mx-auto font-bold">
+          {facultyCoordinators.map((member, i) => (
+            <motion.div 
+              key={member.id} 
+              initial={{ opacity: 0, y: 30 }} 
+              whileInView={{ opacity: 1, y: 0 }} 
+              transition={{ delay: i * 0.1, duration: 0.8 }} 
+              viewport={{ once: true }}
+              className="w-[calc(50%-12px)] sm:w-[calc(33.33%-16px)] md:w-[calc(25%-20px)] lg:w-[calc(20%-26px)] max-w-[210px] min-w-[170px] aspect-[3/4]"
+            >
               <HologramCard member={member} onClick={() => setSelectedMember(member)} />
             </motion.div>
           ))}

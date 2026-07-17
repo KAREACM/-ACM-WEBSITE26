@@ -16,7 +16,7 @@ export const allBlogs: Blog[] = [
   {
     "_id": "68c8d8293167a59c4a0ff7c5",
     "title": "Quantum Cryptography",
-    "image": "/blogs/68c8d8293167a59c4a0ff7c5.jpg",
+    "image": "/assets/images/blogs/68c8d8293167a59c4a0ff7c5.jpg",
     "description": "Leveraging quantum mechanics to create unbreakable security.",
     "link": "https://medium.com/@kareacm/quantum-cryptography-03b09a128bdf",
     "category": "Quantum Computing",
@@ -50,7 +50,7 @@ export const allBlogs: Blog[] = [
   {
     "_id": "68c8d8f23167a59c4a0ff7cb",
     "title": "Competitive Programming",
-    "image": "/blogs/68c8d8fd3167a59c4a0ff7cd.jpg",
+    "image": "/assets/images/blogs/68c8d8fd3167a59c4a0ff7cd.jpg",
     "description": "Sharpen your problem-solving skills with competitive programming.",
     "link": "https://medium.com/@kareacm/competitive-programming-cefc5acc307a",
     "category": "Programming",
@@ -67,7 +67,7 @@ export const allBlogs: Blog[] = [
   {
     "_id": "68c8d8fd3167a59c4a0ff7cd",
     "title": "Blockchain Technology",
-    "image": "/blogs/68c8d8fd3167a59c4a0ff7cd.jpg",
+    "image": "/assets/images/blogs/68c8d8fd3167a59c4a0ff7cd.jpg",
     "description": "Exploring decentralized, transparent, and secure ledgers.",
     "link": "https://medium.com/@kareacm/blockchain-technology-706036b6deac",
     "category": "Blockchain",
@@ -84,7 +84,7 @@ export const allBlogs: Blog[] = [
   {
     "_id": "68c8d90b3167a59c4a0ff7cf",
     "title": "Decentralized Computing",
-    "image": "/blogs/68c8d90b3167a59c4a0ff7cf.jpg",
+    "image": "/assets/images/blogs/68c8d90b3167a59c4a0ff7cf.jpg",
     "description": "Distributing computing resources for greater flexibility.",
     "link": "https://medium.com/@kareacm/decentralised-computing-d8c275b93ded",
     "category": "Computing",
@@ -101,7 +101,7 @@ export const allBlogs: Blog[] = [
   {
     "_id": "68c8d9183167a59c4a0ff7d1",
     "title": "The internet of things and smart cities",
-    "image": "/blogs/68c8d9183167a59c4a0ff7d1.jpg",
+    "image": "/assets/images/blogs/68c8d9183167a59c4a0ff7d1.jpg",
     "description": "A New Era of Urban Development",
     "link": "https://medium.com/@kareacm/the-internet-of-things-and-smart-cities-8ffbc1f3d6ec",
     "category": "IoT",

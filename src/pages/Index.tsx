@@ -152,7 +152,7 @@ const FloatingLogo = () => {
     >
       <div className="absolute inset-0 bg-cyan-500/15 rounded-full blur-[65px] group-hover:bg-cyan-500/25 transition-colors duration-500"></div>
       <img 
-        src="/ACM_LOGO.png" 
+        src="/assets/images/logo/acm_logo.png" 
         className="w-full h-full object-contain drop-shadow-[0_0_15px_rgba(0,191,255,0.6)] group-hover:drop-shadow-[0_0_25px_rgba(0,191,255,0.9)] transition-all duration-500" 
         style={{ transform: "translateZ(40px)" }} 
         alt="ACM KARE Logo"
@@ -445,19 +445,19 @@ export default function Index() {
                 {/* 4-Image Collage */}
                 <div className="relative h-full min-h-[600px] w-full grid grid-cols-2 grid-rows-3 gap-4 scroll-reveal pt-8 lg:pt-0">
                   <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }} className="row-span-2 rounded-[2rem] overflow-hidden border border-white/10 relative group">
-                    <img src="https://images.unsplash.com/photo-1592424001801-9d1078385002?auto=format&fit=crop&q=80" alt="VR Workshop" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
+                    <img src="/assets/images/about/about_1.jpg" alt="VR Workshop" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
                     <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-cyan-400">VR Workshop</div>
                   </motion.div>
                   <motion.div animate={{ y: [0, 10, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }} className="rounded-[2rem] overflow-hidden border border-white/10 relative group">
-                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80" alt="Tech Presentation" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
+                    <img src="/assets/images/about/about_2.jpg" alt="Tech Presentation" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
                     <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-cyan-400">Tech Presentation</div>
                   </motion.div>
                   <motion.div animate={{ y: [0, -5, 0] }} transition={{ duration: 4, repeat: Infinity, ease: "easeInOut", delay: 2 }} className="rounded-[2rem] overflow-hidden border border-white/10 relative group">
-                    <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80" alt="Collaboration" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
+                    <img src="/assets/images/about/about_3.jpg" alt="Collaboration" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity" />
                     <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-purple-400">Collaboration</div>
                   </motion.div>
                   <motion.div animate={{ y: [0, 5, 0] }} transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 0.5 }} className="col-span-2 rounded-[2rem] overflow-hidden border border-white/10 relative group">
-                    <img src="https://images.unsplash.com/photo-1528605105345-5344ea20e269?auto=format&fit=crop&q=80" alt="Innovation" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity object-center" />
+                    <img src="/assets/images/about/about_4.jpg" alt="Innovation" className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity object-center" />
                     <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold text-blue-400">Innovation</div>
                   </motion.div>
                 </div>
@@ -514,13 +514,13 @@ export default function Index() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                  {[
-                   "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80",
-                   "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80",
-                   "https://images.unsplash.com/photo-1528605105345-5344ea20e269?auto=format&fit=crop&q=80",
-                   "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&q=80",
-                   "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80",
-                   "https://images.unsplash.com/photo-1475721025505-1175af140c8f?auto=format&fit=crop&q=80"
-                 ].map((src, i) => (
+                    "/assets/images/gallery/gallery_1.jpg",
+                    "/assets/images/gallery/gallery_2.jpg",
+                    "/assets/images/gallery/gallery_3.jpg",
+                    "/assets/images/gallery/gallery_4.jpg",
+                    "/assets/images/gallery/gallery_5.jpg",
+                    "/assets/images/gallery/gallery_2.jpg"
+                  ].map((src, i) => (
                    <div key={i} className={`scroll-reveal group overflow-hidden rounded-[2rem] bg-white/5 border border-white/10 ${i === 0 || i === 3 ? 'md:col-span-2 md:row-span-2' : ''}`}>
                      <div className="relative w-full h-full aspect-[4/3] md:aspect-auto md:h-full min-h-[250px]">
                        <img src={src} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 filter grayscale group-hover:grayscale-0" />

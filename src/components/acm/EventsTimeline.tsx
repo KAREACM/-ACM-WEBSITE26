@@ -199,7 +199,7 @@ export const EventsTimeline = () => {
                 }}
                 onMouseEnter={() => handleHover(i)}
                 onMouseLeave={handleHoverLeave}
-                onClick={() => setSelectedEvent({ ...event, image: sampleImages[i % sampleImages.length] })}
+                onClick={() => setSelectedEvent({ ...event, image: event.images?.[0] || sampleImages[i % sampleImages.length] })}
               >
                 {/* Event Card Body */}
                 {/* ── 60fps Optimization: Removed box-shadow animation from transition.
@@ -221,7 +221,7 @@ export const EventsTimeline = () => {
                   <div className="absolute inset-0 bg-red-500/5 opacity-0 group-hover:opacity-100 blur-2xl pointer-events-none z-0" style={{ transition: 'opacity 0.7s ease' }} />
 
                   <img 
-                    src={sampleImages[i % sampleImages.length]} 
+                    src={event.images?.[0] || sampleImages[i % sampleImages.length]} 
                     alt={event.title} 
                     className="absolute inset-0 w-full h-full object-cover opacity-30 mix-blend-luminosity group-hover:opacity-100 group-hover:mix-blend-normal scale-110 group-hover:scale-100 z-0"
                     style={{

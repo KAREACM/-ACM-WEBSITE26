@@ -82,7 +82,7 @@ export const Nav = () => {
             onClick={handleLogoClick}>
             <Magnetic>
               <div className="w-12 h-12 transition-all group-hover:scale-110 bg-white/5 rounded-2xl p-2 border border-white/10 backdrop-blur-md">
-                <img src="/ACM_LOGO.png" alt="ACM KARE" className="w-full h-full object-contain" />
+                <img src="/assets/images/logo/acm_logo.png" alt="ACM KARE" className="w-full h-full object-contain" />
               </div>
             </Magnetic>
             <div className="flex flex-col leading-none">
